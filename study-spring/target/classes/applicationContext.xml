@@ -70,6 +70,7 @@
         <property name="name" value="黑笔"/>
     </bean>
 
+<!--    配置list-->
     <bean id="schoolBag" class="top.hang.ioc.entity.SchoolBag">
         <property name="pencilCase">
             <list>
