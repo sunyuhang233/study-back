@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/study-back.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/IoCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/SetterDITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserNameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/IoCTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/SetterDITest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserNameImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserNameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserNameTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/software/apache-maven-3.8.7" />
+        <option name="userSettingsFile" value="E:\software\apache-maven-3.8.7\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MdBs7MD47phTop885cHj9yUTl1" />
+  <component name="ProjectViewState">
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back/study-spring/src/main/resources",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.UserNameTest">
+    <configuration name="IoCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.IoCTest" />
+      <module name="study-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.hang.Main" />
+      <module name="study-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetterDITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.SetterDITest" />
+      <module name="study-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserNameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.UserNameTest" />
+      <module name="study-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserNameTest" />
+        <item itemvalue="Application.SetterDITest" />
+        <item itemvalue="Application.IoCTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="" />
+      <created>1678087782972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678087782972</updated>
+      <workItem from="1678087784341" duration="19000" />
+      <workItem from="1678087846276" duration="329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

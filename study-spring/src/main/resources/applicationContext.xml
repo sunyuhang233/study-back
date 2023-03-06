@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    在spring 容器创建了一个id为userDao的 bean-->
+    <bean id="userDao" class="top.hang.ioc.UserDaoImpl"/>
+
+    <!--    在spring 容器创建了一个id为userService的 bean-->
+    <bean id="userService" class="top.hang.ioc.UserServiceImpl">
+        <!--        注入属性 id 为userDao注入到userService实例 ref属性 -->
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <!--    在spring 容器创建了一个id为userName的 bean-->
+    <bean id="userName" class="top.hang.ioc.UserNameImpl">
+        <!--        注入属性 id 为userDao注入到userService实例 ref属性 -->
+        <property name="userName" value="张三"/>
+    </bean>
+</beans>
