@@ -5,36 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/list/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/list/TestArrayListCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/list/TestLinkedListCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/annotation/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/annotation/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/annotation/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/annotation/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/annotation/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/annotation/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/assemble/AssembleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/assemble/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/instance/constructor/Bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/instance/constructor/InstanceTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/instance/factory/Bean3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/instance/factory/InstanceTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/instance/factory/Mybean3Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/instance/static_factory/Bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/instance/static_factory/InstanceTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/instance/static_factory/MyBean2Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/scope/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/scope/ScopeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/beans1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/beans2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/beans3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/beans4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/beans5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/beans6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/beans7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/entiy/CustomObjectSortSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/entiy/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/list/ForTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/map/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/map/LinkedHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/map/MapForTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/map/TreeMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/set/HashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/set/LinkedHashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/set/TreeSetSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/work/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/work/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/work/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +66,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back/study-spring/src/main/java/top/hang/ioc",
+    "last_opened_file_path": "D:/Users/Ahang/Desktop/project/study-back",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "0d6279d455c7be11fb9bf2a1cd272634",
     "vue.rearranger.settings.migration": "true"
   }
@@ -98,13 +82,13 @@
       <recent name="D:\Users\Ahang\Desktop\study-back\study-spring\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationTest">
-    <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.annotation.AnnotationTest" />
-      <module name="study-spring" />
+  <component name="RunManager" selected="Application.Word">
+    <configuration name="CustomObjectSortSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.entiy.CustomObjectSortSample" />
+      <module name="java-hight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.ioc.annotation.*" />
+          <option name="PATTERN" value="org.example.entiy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssembleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.assemble.AssembleTest" />
-      <module name="study-spring" />
+    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.work.EmployeeTest" />
+      <module name="java-hight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.ioc.assemble.*" />
+          <option name="PATTERN" value="org.example.work.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.instance.static_factory.InstanceTest2" />
-      <module name="study-spring" />
+    <configuration name="MapForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.map.MapForTest" />
+      <module name="java-hight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.ioc.instance.static_factory.*" />
+          <option name="PATTERN" value="org.example.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.instance.factory.InstanceTest3" />
-      <module name="study-spring" />
+    <configuration name="TreeMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.map.TreeMapTest" />
+      <module name="java-hight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.ioc.instance.factory.*" />
+          <option name="PATTERN" value="org.example.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScopeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.scope.ScopeTest" />
-      <module name="study-spring" />
+    <configuration name="Word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.work.Word" />
+      <module name="java-hight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.ioc.scope.*" />
+          <option name="PATTERN" value="org.example.work.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnnotationTest" />
-        <item itemvalue="Application.AssembleTest" />
-        <item itemvalue="Application.ScopeTest" />
-        <item itemvalue="Application.InstanceTest3" />
-        <item itemvalue="Application.InstanceTest2" />
+        <item itemvalue="Application.Word" />
+        <item itemvalue="Application.EmployeeTest" />
+        <item itemvalue="Application.CustomObjectSortSample" />
+        <item itemvalue="Application.MapForTest" />
+        <item itemvalue="Application.TreeMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +169,8 @@
       <workItem from="1678087784341" duration="19000" />
       <workItem from="1678087846276" duration="5254000" />
       <workItem from="1678099505777" duration="2368000" />
+      <workItem from="1678105225168" duration="465000" />
+      <workItem from="1678111044630" duration="3000000" />
     </task>
     <servers />
   </component>
