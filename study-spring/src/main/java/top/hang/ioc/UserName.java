@@ -1,4 +1,4 @@
-package top.hang.ioc;
+package top.hang.spring.ioc;
 
 /**
  * @author Ahang

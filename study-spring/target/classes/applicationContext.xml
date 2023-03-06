@@ -12,8 +12,73 @@
     </bean>
 
     <!--    在spring 容器创建了一个id为userName的 bean-->
-    <bean id="userName" class="top.hang.ioc.UserNameImpl">
-        <!--        注入属性 id 为userDao注入到userService实例 ref属性 -->
-        <property name="userName" value="张三"/>
+    <!--    <bean id="userName" class="top.hang.ioc.UserNameService">-->
+    <!--        &lt;!&ndash;        注入属性 id 为userDao注入到userService实例 ref属性 &ndash;&gt;-->
+    <!--        <property name="userName" value="张三"/>-->
+    <!--    </bean>-->
+
+<!--    &lt;!&ndash;    注入Dog 传入两个参数 name和age&ndash;&gt;-->
+<!--    <bean id="dog" class="top.hang.ioc.entity.Dog">-->
+<!--        <property name="name" value="旺财"/>-->
+<!--        <property name="age" value="18"/>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;    &ndash;&gt;-->
+<!--    <bean id="cat" class="top.hang.ioc.entity.Cat">-->
+<!--        <property name="name" value="小猫"/>-->
+<!--        <property name="age" value="3"/>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash; 无参方法创建对象。&ndash;&gt;-->
+<!--    <bean id="book1" class="top.hang.ioc.entity.Book">-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;   有参方法创建对象。&ndash;&gt;-->
+<!--    <bean id="book" class="top.hang.ioc.entity.Book">-->
+<!--        <constructor-arg name="name" value="三国演义"/>-->
+<!--        <constructor-arg name="id" value="1"/>-->
+<!--        <constructor-arg name="price" value="100"/>-->
+<!--    </bean>-->
+
+
+
+<!--    <bean id="clothes2" class="top.hang.ioc.entity.Clothes">-->
+<!--        <property name="style" value="裤子" />-->
+<!--       <property name="color" value="蓝色" />-->
+
+<!--    </bean>-->
+
+<!--    <bean id="clothes1" class="top.hang.ioc.entity.Clothes">-->
+<!--        <property name="style" value="裙子" />-->
+<!--       <property name="color" value="红色" />-->
+
+<!--    </bean>-->
+
+<!--    <bean id="person" class="top.hang.ioc.entity.Person">-->
+<!--        <property name="clothes" value="clothes"/>-->
+<!--        <property name="name" value="张三"/>-->
+<!--    </bean>-->
+
+<!--    创建applicationContext.xml ,在配置文件中实例化SchoolBag 和Pen对象
+     并向SchoolBag 类中注入 List<Pen>类型的 pencilCase 对象。-->
+
+    <bean id="pen1" class="top.hang.ioc.entity.Pen">
+        <property name="name" value="铅笔"/>
     </bean>
+    <bean id="pen2" class="top.hang.ioc.entity.Pen">
+        <property name="name" value="红笔"/>
+    </bean>
+    <bean id="pen3" class="top.hang.ioc.entity.Pen">
+        <property name="name" value="黑笔"/>
+    </bean>
+
+    <bean id="schoolBag" class="top.hang.ioc.entity.SchoolBag">
+        <property name="pencilCase">
+            <list>
+                <ref bean="pen1"/>
+                <ref bean="pen2"/>
+                <ref bean="pen3"/>
+            </list>
+        </property>
+    </bean>
+
+
 </beans>

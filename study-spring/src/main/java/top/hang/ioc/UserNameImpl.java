@@ -1,4 +1,7 @@
-package top.hang.ioc;
+package top.hang.spring.ioc;
+
+import top.hang.ioc.UserDao;
+import top.hang.ioc.UserNameService;
 
 /**
  * @author Ahang

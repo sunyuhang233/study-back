@@ -5,43 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/study-back.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/IoCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/SetterDITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserNameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserNameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/IoCTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/SetterDITest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserNameImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserNameService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserNameTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/CatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/DogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/entity/SchoolBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserNameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/UserNameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-spring/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-spring/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-spring/target/classes/top/hang/ioc/UserNameImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +56,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2MdBs7MD47phTop885cHj9yUTl1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showScratchesAndConsoles" value="false" />
   </component>
@@ -72,18 +68,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back/study-spring/src/main/resources",
+    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back/study-spring/src/main/java/top/hang/ioc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UserNameTest">
-    <configuration name="IoCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.IoCTest" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Ahang\Desktop\study-back\study-spring\src\main\java\top\hang\ioc" />
+      <recent name="D:\Users\Ahang\Desktop\study-back\study-spring\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BagTest">
+    <configuration name="BagTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.entity.BagTest" />
       <module name="study-spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.ioc.*" />
+          <option name="PATTERN" value="top.hang.ioc.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.Main" />
+    <configuration name="CatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.entity.CatTest" />
       <module name="study-spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.*" />
+          <option name="PATTERN" value="top.hang.ioc.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.hang.ioc.entity.DogTest" />
+      <module name="study-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.ioc.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,10 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserNameTest" />
+        <item itemvalue="Application.BagTest" />
         <item itemvalue="Application.SetterDITest" />
-        <item itemvalue="Application.IoCTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UserNameTest" />
+        <item itemvalue="Application.DogTest" />
+        <item itemvalue="Application.CatTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678087782972</updated>
       <workItem from="1678087784341" duration="19000" />
-      <workItem from="1678087846276" duration="329000" />
+      <workItem from="1678087846276" duration="3741000" />
     </task>
     <servers />
   </component>
