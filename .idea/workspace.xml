@@ -10,66 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_learning_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_study_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/java/org/example/controller/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/java/org/example/controller/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/java/org/example/controller/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/WEB-INF/ftl/first.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/WEB-INF/ftl/hello.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/img/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/img/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/img/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/img/5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/img/6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-learning/src/main/webapp/img/7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/IocTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/bean/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/bean/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/io/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/io/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/io/CatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/io/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/io/DogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/io/One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/io/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/io/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/test4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/test5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/excption/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/excption/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-hight/src/main/java/org/example/excption/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/list/TestCat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/annotation/AnnotationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/annotation/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/annotation/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/test/bean/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/annotation/UserDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/annotation/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/annotation/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/assemble/AssembleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/assemble/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/beans1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/src/main/resources/test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/beans2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/src/main/resources/test3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/beans3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/beans4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/beans5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/src/main/resources/test2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/beans6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/beans7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/instance/constructor/Bean1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/instance/constructor/InstanceTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/instance/factory/Bean3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/instance/factory/InstanceTest3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/instance/factory/Mybean3Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/instance/static_factory/Bean2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/instance/static_factory/InstanceTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/instance/static_factory/MyBean2Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/scope/Scope.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-spring/src/main/java/top/hang/ioc/新建文件夹/scope/ScopeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-hight/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_study_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_mvc_study_Web_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/micrometer-commons-1.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/micrometer-observation-1.10.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/spring-aop-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/spring-beans-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/spring-context-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/spring-core-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/spring-expression-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/spring-jcl-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/spring-web-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-study/target/WEB-INF/lib/spring-webmvc-6.0.6.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +95,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "3dc9dcb0f0ca2f8dd31cb67f81707705",
     "vue.rearranger.settings.migration": "true"
   }
@@ -154,26 +112,13 @@
       <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-study\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.27">
-    <configuration name="CatTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.test.io.CatTest" />
-      <module name="study-spring" />
+  <component name="RunManager" selected="Application.ExceptionTest">
+    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.excption.ExceptionTest" />
+      <module name="java-hight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.test.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.test.io.DogTest" />
-      <module name="study-spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.test.io.*" />
+          <option name="PATTERN" value="org.example.excption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.test.io.UserTest" />
-      <module name="study-spring" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.excption.Test1" />
+      <module name="java-hight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.test.io.*" />
+          <option name="PATTERN" value="org.example.excption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,18 +152,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.userTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-spring" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.excption.Test2" />
+      <module name="java-hight" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.test.io.*" />
+          <option name="PATTERN" value="org.example.excption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.test.io" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.test.io.UserTest" />
-      <option name="METHOD_NAME" value="userTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.excption.Test3" />
+      <module name="java-hight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.excption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,20 +268,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CatTest" />
-      <item itemvalue="Application.DogTest" />
+      <item itemvalue="Application.ExceptionTest" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.Test3" />
       <item itemvalue="Application.One" />
-      <item itemvalue="Application.UserTest" />
-      <item itemvalue="JUnit.UserTest.userTest" />
       <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionTest" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.One" />
-        <item itemvalue="Application.DogTest" />
-        <item itemvalue="Application.CatTest" />
-        <item itemvalue="Application.UserTest" />
-        <item itemvalue="JUnit.UserTest.userTest" />
       </list>
     </recent_temporary>
   </component>
@@ -345,11 +300,32 @@
       <workItem from="1678111044630" duration="4263000" />
       <workItem from="1678163398946" duration="7128000" />
       <workItem from="1678185302915" duration="5230000" />
-      <workItem from="1678192770373" duration="4051000" />
+      <workItem from="1678192770373" duration="5335000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.Exception" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
