@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .box img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .t1 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .t2 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+<div class="main">
+<!--    <div class="box">-->
+<!--        <h1 class="title">三国演义</h1>-->
+<!--        <img src="https://th.bing.com/th/id/OIP.NmUN8fWOh4FMm7WOJxwJCAHaHa?pid=ImgDet&rs=1">-->
+<!--        <div>-->
+<!--            <p class="t1">罗贯中</p>-->
+<!--            <p class="t2">200.0</p>-->
+<!--        </div>-->
+<!--    </div>-->
+</div>
+</body>
+
+<script>
+    // 循环渲染页面
+    const data=[
+        {
+            title:'三国演义',
+            avatar:"https://th.bing.com/th/id/OIP.NmUN8fWOh4FMm7WOJxwJCAHaHa?pid=ImgDet&rs=1",
+            name:"罗贯中",
+            price:200.0
+        },
+        {
+            title:'水浒传',
+            avatar:"https://th.bing.com/th/id/OIP.pqJSgr_RxNVY9LOo2W3opgAAAA?pid=ImgDet&rs=1",
+            name:"施耐庵",
+            price:100.0
+        },
+        {
+            title:'西游记',
+            avatar:"https://th.bing.com/th/id/R.00aabe01c6a26ae786bdbefbeab08a49?rik=G6zAgXt9eFkZNw&riu=http%3a%2f%2fimage12.bookschina.com%2f2017%2f20170905%2f7468662.jpg&ehk=eyri5KkqD3RupAe1DbWIdkHmWQSjuT7zJWQ1P91TVYk%3d&risl=&pid=ImgRaw&r=0",
+            name:"吴承恩",
+            price:300.0
+        },{
+    title:"红楼梦",
+            avatar:"https://th.bing.com/th/id/R.db6ef6fb3b31d295e6009dd7be8628c1?rik=BhW4or4nOZ5bww&riu=http%3a%2f%2ffilesrv.iyunshu.com%2fC%2f00624%2f97875411269011319764-fm.jpg&ehk=pTV8gKROgUkaQs%2bUc7e12Z63FZh3HbYz5%2fhjSWXH%2fGY%3d&risl=&pid=ImgRaw&r=0",
+            name:"曹雪芹",
+            price:400.0
+        }
+    ]
+
+    const main=document.querySelector('.main')
+//     循环遍历
+    for (let i = 0; i < data.length; i++) {
+        const box=document.createElement('div')
+        box.className='box'
+        const title=document.createElement('h1')
+        title.className='title'
+        title.innerText=data[i].title
+        const img=document.createElement('img')
+        img.src=data[i].avatar
+        const div=document.createElement('div')
+        const p1=document.createElement('p')
+        p1.className='t1'
+        p1.innerText=data[i].name
+        const p2=document.createElement('p')
+        p2.className='t2'
+        p2.innerText=data[i].price
+        div.appendChild(p1)
+        div.appendChild(p2)
+        box.appendChild(title)
+        box.appendChild(img)
+        box.appendChild(div)
+        main.appendChild(box)
+    }
+</script>
+
+</html>

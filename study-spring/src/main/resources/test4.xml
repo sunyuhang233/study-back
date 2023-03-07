@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="a1" class="top.hang.test.io.Animal">
+        <property name="name" value="dog1"/>
+    </bean>
+    <bean id="a2" class="top.hang.test.io.Animal">
+        <property name="name" value="dog2"/>
+    </bean>
+    <bean id="a3" class="top.hang.test.io.Animal">
+        <property name="name" value="dog3"/>
+    </bean>
+
+    <!--    配置list数据-->
+    <bean id="dog1" class="top.hang.test.io.Dog">
+        <property name="animals">
+            <list>
+                <ref bean="a1"/>
+                <ref bean="a2"/>
+                <ref bean="a3"/>
+            </list>
+        </property>
+        <property name="age" value="20"/>
+    </bean>
+</beans>

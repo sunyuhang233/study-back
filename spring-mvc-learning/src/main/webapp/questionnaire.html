@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="question" method="post">
+    <table>
+        <tr>
+            <td>姓名：</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>课程：</td>
+            <td>
+                <select name="course">
+                    <option value="java">java</option>
+                    <option value="python">python</option>
+                    <option value="c++">c++</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>爱好：</td>
+            <td>
+                <input type="checkbox" name="hobby" value="1">篮球
+                <input type="checkbox" name="hobby" value="2">足球
+                <input type="checkbox" name="hobby" value="3">乒乓球
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="提交"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

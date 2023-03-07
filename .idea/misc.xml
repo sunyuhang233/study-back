@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/study-spring/pom.xml" />
         <option value="$PROJECT_DIR$/java-hight/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-study/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-learning/pom.xml" />
       </list>
     </option>
   </component>

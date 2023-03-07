@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="study-spring" />
         <module name="java-hight" />
+        <module name="spring-mvc-learning" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-mvc-study" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

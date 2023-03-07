@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    为数组类型属性赋值-->
+    <bean id="one" class="top.hang.test.io.One">
+        <property name="hobbies">
+            <array>
+                <value>篮球</value>
+                <value>足球</value>
+                <value>乒乓球</value>
+            </array>
+        </property>
+    </bean>
+</beans>
