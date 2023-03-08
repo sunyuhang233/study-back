@@ -52,5 +52,16 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
+    <!--显示装配自定义类型转换器-->
+    <mvc:annotation-driven conversion-service="conversionService"/>
+    <!--    自定义类型转换器配置-->
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="org.example.controller.converter.DateConverter"/>
+            </set>
+        </property>
+    </bean>
+
 
 </beans>

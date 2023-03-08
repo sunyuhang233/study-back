@@ -1,10 +1,12 @@
 package org.example.excption;
 
+
 /**
- * @author mqxu
- * @Date 2023/3/6
- * @Description ExceptionTest
- **/
+ * @author Ahang
+ * @version 1.0
+ * @description 异常demo
+ * @date 2023/3/7 22:29
+ */
 public class ExceptionTest {
     private boolean test01() {
         boolean ret = true;
