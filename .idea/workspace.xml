@@ -10,23 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="完成剩余Spring Mvc">
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo1/src/main/java/top/hang/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo2/src/main/java/top/hang/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo2/src/main/java/top/hang/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo2/src/test/java/top/hang/controller/HelloControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/test/java/top/hang/controller/HelloControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo4/src/test/java/top/hang/controller/HelloControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/CourseTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/entity/CourseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/test/java/top/hang/controller/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo3/src/test/java/top/hang/controller/HelloControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/test-classes/top/hang/controller/HelloControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo3/target/test-classes/top/hang/controller/HelloControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-demo4/target/classes/top/hang/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/target/classes/top/hang/controller/HelloController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +41,8 @@
         <option value="HTML File" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,7 +94,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Users/Ahang/Desktop/毕业设计代码生成器/代码生成器V2.0（推荐使用）/boot-vue3-master",
+    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back/spring-boot-demo3/src/main/java/top/hang/common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,11 +109,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Ahang\Desktop\study-back\spring-boot-demo3\src\main\java\top\hang\common" />
       <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-learning\src\main\webapp\img" />
       <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-study\web\WEB-INF" />
       <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-study\web" />
       <recent name="D:\Users\Ahang\Desktop\study-back\study-spring\src\main\java\top\hang\ioc" />
-      <recent name="D:\Users\Ahang\Desktop\study-back\study-spring\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-study\src\main" />
@@ -134,7 +132,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelloControllerTest.hello (1)">
+  <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="FirstTest.first" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-demo2" />
       <extension name="coverage">
@@ -151,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloControllerTest.hello (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-demo4" />
+    <configuration name="HelloControllerTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-demo3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.hang.controller.*" />
@@ -168,7 +166,7 @@
       </method>
     </configuration>
     <configuration name="HelloControllerTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-demo3" />
+      <module name="spring-boot-demo4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.hang.controller.*" />
@@ -199,8 +197,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-demo3" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.Main" />
       <extension name="coverage">
         <pattern>
@@ -313,17 +318,18 @@
       <item itemvalue="JUnit.HelloControllerTest.hello" />
       <item itemvalue="JUnit.HelloControllerTest.hello (1)" />
       <item itemvalue="JUnit.HelloControllerTest.test1" />
-      <item itemvalue="Spring Boot.SpringBootDemo2Application" />
       <item itemvalue="Spring Boot.Main (1)" />
+      <item itemvalue="Spring Boot.SpringBootDemo2Application" />
+      <item itemvalue="Spring Boot.Main" />
       <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HelloControllerTest.hello (1)" />
+        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="JUnit.HelloControllerTest.hello" />
+        <item itemvalue="JUnit.HelloControllerTest.hello (1)" />
         <item itemvalue="JUnit.HelloControllerTest.test1" />
         <item itemvalue="JUnit.FirstTest.first" />
-        <item itemvalue="Spring Boot.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +358,7 @@
       <workItem from="1678272496447" duration="124000" />
       <workItem from="1678272732376" duration="2774000" />
       <workItem from="1678517020799" duration="1165000" />
-      <workItem from="1678683923258" duration="5316000" />
+      <workItem from="1678683923258" duration="11453000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>

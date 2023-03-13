@@ -12,6 +12,7 @@ class HelloControllerTest {
     private  HelloController helloController;
     @Test
     void hello() {
-        helloController.hello();
+       String msg= helloController.hello();
+        System.out.println(msg);
     }
 }
