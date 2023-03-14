@@ -1,0 +1,2 @@
+1 #-------starter????---------
+2 org.springframework.boot.autoconfigure.EnableAutoConfiguration=top.hang.entity.DemoConfig

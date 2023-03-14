@@ -10,8 +10,10 @@
         <option value="$PROJECT_DIR$/spring-mvc-learning/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-demo1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-demo2/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-demo3/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-demo4/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-demo5/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-demo-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-learning/pom.xml" />
       </list>
     </option>
   </component>

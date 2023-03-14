@@ -1,0 +1,31 @@
+
+#server.port=9000
+#server.address=127.0.0.1
+#person.id=1
+#person.name=John
+#person.hobby=play,read,write
+#person.family=father,mother
+#person.map.key1=value1
+#person.map.key2=value2
+#person.pet.name=dog
+#person.pet.type=animal
+person:
+  pet: {name: dog, type: animal}
+  map: {key1: value1, key2: value2}
+#  map2:
+#    key1: value1
+#    key2: value2
+  family: [father, mother]
+#  hobby: [play, read, write]
+  name: John
+  id: 2
+  hobby:
+    - play
+    - read
+    - write
+student:
+ name: John
+ id : null
+spring:
+  profiles:
+    active: dev
