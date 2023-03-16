@@ -10,65 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="完成剩余Spring Mvc">
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo-test/src/main/java/top/hang/springbootdemotest/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo-test/src/main/java/top/hang/springbootdemotest/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/service/ISplitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/service/SplitAutoConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/service/impl/SplitServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo5/src/main/java/top/hang/RunApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo5/src/main/java/top/hang/entity/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo5/src/main/java/top/hang/entity/DemoProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo5/src/main/java/top/hang/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-demo5/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/config/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/domain/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/prop/MyProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/service/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/resources/my.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/test/java/top/hang/boot/config/MyConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/test/java/top/hang/boot/config/MyPropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/test/java/top/hang/boot/domain/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/test/java/top/hang/boot/domain/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/config/OssConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/config/TestConfigIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/controller/OssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/boot/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/resources/aliyun-oss.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/test/java/top/hang/boot/config/OssConfigTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/common/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/CourseTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/controller/CourseTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/entity/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/entity/CourseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/entity/CourseDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/main/java/top/hang/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/src/test/java/top/hang/controller/HelloControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/common/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/controller/CourseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/controller/CourseTestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/entity/Course$CourseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/entity/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/entity/CourseDemo$CourseDemoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/entity/CourseDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/classes/top/hang/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo3/target/test-classes/top/hang/controller/HelloControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/src/main/java/top/hang/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo4/target/classes/top/hang/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/target/classes/top/hang/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-demo4/target/test-classes/top/hang/controller/HelloControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-demo4/target/test-classes/top/hang/controller/HelloControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/java/top/hang/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +71,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2MdBs7MD47phTop885cHj9yUTl1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,35 +81,35 @@
   <component name="ProjectViewState">
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back/spring-boot-demo4/src/main/java/top/hang",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "df5738e40302240f161fd29cb0daa515",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Ahang/Desktop/study-back/spring-boot-demo4/src/main/java/top/hang&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3449cc08d765906222df7b350e8f5b34&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Ahang\Desktop\study-back\spring-boot-demo4\src\main\java\top\hang" />
@@ -181,22 +138,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Main">
-    <configuration name="HelloControllerTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-demo4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.controller" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.controller.HelloControllerTest" />
-      <option name="METHOD_NAME" value="hello" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyConfigTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-config-learning" />
       <extension name="coverage">
@@ -213,32 +154,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPropertiesTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OssConfigTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-config-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.boot.prop.*" />
+          <option name="PATTERN" value="top.hang.boot.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="top.hang.boot.config" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.boot.config.MyPropertiesTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-config-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.boot.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.boot.domain" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.boot.domain.PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.boot.config.OssConfigTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -260,6 +185,10 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="spring-boot-config.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/target/spring-boot-config.jar" />
+      <method v="2" />
     </configuration>
     <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-demo2" />
@@ -406,9 +335,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JAR Application.spring-boot-config.jar" />
+      <item itemvalue="JUnit.OssConfigTest.test" />
       <item itemvalue="JUnit.MyConfigTest.test" />
-      <item itemvalue="JUnit.MyPropertiesTest.test" />
-      <item itemvalue="JUnit.PersonTest.test" />
       <item itemvalue="JUnit.StudentTest.test" />
       <item itemvalue="Spring Boot.RunApplication" />
       <item itemvalue="Spring Boot.SpringBootLearningApplication" />
@@ -422,10 +351,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.OssConfigTest.test" />
+        <item itemvalue="JAR Application.spring-boot-config.jar" />
         <item itemvalue="JUnit.MyConfigTest.test" />
         <item itemvalue="JUnit.StudentTest.test" />
-        <item itemvalue="JUnit.MyPropertiesTest.test" />
-        <item itemvalue="JUnit.PersonTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +388,9 @@
       <workItem from="1678517020799" duration="1165000" />
       <workItem from="1678683923258" duration="11453000" />
       <workItem from="1678712580688" duration="1882000" />
-      <workItem from="1678769954430" duration="9983000" />
+      <workItem from="1678769954430" duration="12761000" />
+      <workItem from="1678953418280" duration="1696000" />
+      <workItem from="1678955144572" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>

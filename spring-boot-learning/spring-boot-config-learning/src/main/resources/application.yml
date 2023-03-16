@@ -26,6 +26,6 @@ person:
 student:
  name: John
  id : null
-spring:
-  profiles:
-    active: dev
+#spring:
+#  profiles:
+#    active: test
