@@ -13,6 +13,7 @@
         <module name="java-hight" />
         <module name="spring-boot-demo4" />
         <module name="spring-boot-demo5" />
+        <module name="spring-boot-data-learning" />
         <module name="spring-boot-config-learning" />
         <module name="study-spring" />
       </profile>
@@ -25,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-config-learning" options="-parameters" />
+      <module name="spring-boot-data-learning" options="-parameters" />
       <module name="spring-boot-demo-test" options="-parameters" />
       <module name="spring-boot-demo1" options="-parameters" />
       <module name="spring-boot-demo2" options="-parameters" />
