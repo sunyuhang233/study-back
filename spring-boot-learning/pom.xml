@@ -25,8 +25,9 @@
         <lombok.version>1.18.20</lombok.version>
         <fastjson.version>1.2.76</fastjson.version>
         <mysql.version>8.0.30</mysql.version>
-        <mybatis.version>3.5.7</mybatis.version>
+        <mybatis.version>2.2.1</mybatis.version>
         <druid.version>1.2.16</druid.version>
+        <mybatis-plus.version>3.4.3</mybatis-plus.version>
     </properties>
 
     <!-- 依赖管理   dependencies子模块不需要引入 自动继承父工程-->
@@ -59,6 +60,11 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

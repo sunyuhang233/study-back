@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.hang.data.mapper.CourseMapper">
+    <select id="selectCourseById" parameterType="int" resultType="top.hang.data.entity.Course">
+        SELECT *
+        FROM t_course
+        WHERE course_id = #{courseId}
+    </select>
+    <select id="selectAll" resultType="top.hang.data.entity.Course">
+        SELECT *
+        FROM t_course
+    </select>
+    <select id="selectCourseAndStudentId" resultType="top.hang.data.entity.Course">
+        SELECT *
+        FROM t_course
+        WHERE student_id = #{studentId}
+    </select>
+
+    <insert id="insertCourse" parameterType="top.hang.data.entity.Course">
+        INSERT INTO t_course (course_id,course_name, student_id)
+        VALUES (#{courseId}, #{courseName}, #{studentId})
+    </insert>
+
+    <update id="updateCourse" parameterType="top.hang.data.entity.Course">
+        UPDATE t_course
+        SET course_name = #{courseName}
+        WHERE course_id = #{courseId}
+    </update>
+
+    <delete id="deleteCourse" parameterType="int">
+        DELETE FROM t_course
+        WHERE course_id = #{courseId}
+    </delete>
+
+</mapper>

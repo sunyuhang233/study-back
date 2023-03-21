@@ -9,25 +9,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="完成剩余Spring Mvc">
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/controller/DiscussController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Discuss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/repository/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/repository/DiscussRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/service/PageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/service/PageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/templates/articleDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/repository/ArticleRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/repository/DiscussRepositoryTest.java" afterDir="false" />
+    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="JPA 完成小练习">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/mapper/ClazzMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/mapper/ClazzMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/mapper/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/mapper/ClazzMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/mapper/CourseMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/mapper/StudentMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/mapper/TeacherMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/DataRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/DataRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +48,10 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="Interface" />
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -86,35 +92,40 @@
   <component name="ProjectViewState">
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Ahang/Desktop/study-back&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;77a704bb7cec087c17614eef9f1fd0d2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "77a704bb7cec087c17614eef9f1fd0d2",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Ahang\Desktop\study-back\spring-boot-demo4\src\main\java\top\hang" />
@@ -130,6 +141,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="top.hang.data.mapper" />
       <recent name="top.hang.data.repository" />
       <recent name="top.hang.boot.config" />
       <recent name="top.hang.boot.domain" />
@@ -143,82 +155,82 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DataRun">
-    <configuration name="ArticleRepositoryTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentMapperTest.batchUpdate">
+    <configuration name="ClazzMapperTest.selectOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-data-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.repository.*" />
+          <option name="PATTERN" value="top.hang.data.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.repository" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.repository.ArticleRepositoryTest" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.ClazzMapperTest" />
+      <option name="METHOD_NAME" value="selectOneToMany" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscussRepositoryTest.getDiscussByExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClazzMapperTest.selectOneToManyByClazzIdAndStudentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-data-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.repository.*" />
+          <option name="PATTERN" value="top.hang.data.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.repository" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.repository.DiscussRepositoryTest" />
-      <option name="METHOD_NAME" value="getDiscussByExample" />
+      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.ClazzMapperTest" />
+      <option name="METHOD_NAME" value="selectOneToManyByClazzIdAndStudentId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscussRepositoryTest.getDiscussByExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseMapperTest.selectCourseAndStudentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-data-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.repository.*" />
+          <option name="PATTERN" value="top.hang.data.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.repository" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.repository.DiscussRepositoryTest" />
-      <option name="METHOD_NAME" value="getDiscussByExample1" />
+      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.CourseMapperTest" />
+      <option name="METHOD_NAME" value="selectCourseAndStudentId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscussRepositoryTest.getDiscussByQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentMapperTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-data-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.repository.*" />
+          <option name="PATTERN" value="top.hang.data.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.repository" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.repository.DiscussRepositoryTest" />
-      <option name="METHOD_NAME" value="getDiscussByQuery" />
+      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.StudentMapperTest" />
+      <option name="METHOD_NAME" value="batchInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscussRepositoryTest.getPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentMapperTest.batchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-data-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.repository.*" />
+          <option name="PATTERN" value="top.hang.data.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.repository" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.repository.DiscussRepositoryTest" />
-      <option name="METHOD_NAME" value="getPage" />
+      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.StudentMapperTest" />
+      <option name="METHOD_NAME" value="batchUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -377,11 +389,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArticleRepositoryTest.contextLoads" />
-      <item itemvalue="JUnit.DiscussRepositoryTest.getDiscussByExample" />
-      <item itemvalue="JUnit.DiscussRepositoryTest.getDiscussByExample1" />
-      <item itemvalue="JUnit.DiscussRepositoryTest.getDiscussByQuery" />
-      <item itemvalue="JUnit.DiscussRepositoryTest.getPage" />
+      <item itemvalue="JUnit.ClazzMapperTest.selectOneToMany" />
+      <item itemvalue="JUnit.ClazzMapperTest.selectOneToManyByClazzIdAndStudentId" />
+      <item itemvalue="JUnit.CourseMapperTest.selectCourseAndStudentId" />
+      <item itemvalue="JUnit.StudentMapperTest.batchInsert" />
+      <item itemvalue="JUnit.StudentMapperTest.batchUpdate" />
       <item itemvalue="Spring Boot.DataRun" />
       <item itemvalue="Spring Boot.SpringBootDataLearningApplication" />
       <item itemvalue="Spring Boot.RunApplication" />
@@ -395,11 +407,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArticleRepositoryTest.contextLoads" />
-        <item itemvalue="JUnit.DiscussRepositoryTest.getPage" />
-        <item itemvalue="JUnit.DiscussRepositoryTest.getDiscussByExample1" />
-        <item itemvalue="JUnit.DiscussRepositoryTest.getDiscussByExample" />
-        <item itemvalue="JUnit.DiscussRepositoryTest.getDiscussByQuery" />
+        <item itemvalue="JUnit.StudentMapperTest.batchUpdate" />
+        <item itemvalue="JUnit.CourseMapperTest.selectCourseAndStudentId" />
+        <item itemvalue="JUnit.ClazzMapperTest.selectOneToManyByClazzIdAndStudentId" />
+        <item itemvalue="JUnit.ClazzMapperTest.selectOneToMany" />
+        <item itemvalue="JUnit.StudentMapperTest.batchInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +458,8 @@
       <workItem from="1679125563447" duration="640000" />
       <workItem from="1679285958817" duration="15422000" />
       <workItem from="1679306089942" duration="1669000" />
-      <workItem from="1679371846342" duration="579000" />
+      <workItem from="1679371846342" duration="1244000" />
+      <workItem from="1679376030828" duration="13318000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
@@ -482,7 +495,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成java高级部分的异常" />
     <MESSAGE value="完成剩余Spring Mvc" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成剩余Spring Mvc" />
+    <MESSAGE value="JPA 完成小练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 完成小练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -490,6 +504,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.Exception" package="java.lang" />
           <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.mybatis.spring.MyBatisSystemException" package="org.mybatis.spring" />
+          <option name="timeStamp" value="4" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
