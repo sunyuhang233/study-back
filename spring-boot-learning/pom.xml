@@ -24,6 +24,9 @@
         <java.version>17</java.version>
         <lombok.version>1.18.20</lombok.version>
         <fastjson.version>1.2.76</fastjson.version>
+        <mysql.version>8.0.30</mysql.version>
+        <mybatis.version>3.5.7</mybatis.version>
+        <druid.version>1.2.16</druid.version>
     </properties>
 
     <!-- 依赖管理   dependencies子模块不需要引入 自动继承父工程-->
@@ -51,6 +54,11 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
