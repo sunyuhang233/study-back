@@ -10,30 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="JPA 完成小练习">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Clazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/entity/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/mapper/ClazzMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/mapper/TeacherMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/mapper/ClazzMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/mapper/TeacherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/mapper/ClazzMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/mapper/CourseMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/mapper/StudentMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/test/java/top/hang/data/mapper/TeacherMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/DataRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/DataRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/java/top/hang/data/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +94,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "77a704bb7cec087c17614eef9f1fd0d2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "4f012c7b4d7adb614dd160c6af0b4cb8",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -460,6 +438,7 @@
       <workItem from="1679306089942" duration="1669000" />
       <workItem from="1679371846342" duration="1244000" />
       <workItem from="1679376030828" duration="13318000" />
+      <workItem from="1679487298374" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
