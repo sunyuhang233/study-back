@@ -15,6 +15,7 @@
         <module name="spring-boot-demo5" />
         <module name="spring-boot-data-learning" />
         <module name="spring-boot-config-learning" />
+        <module name="spring-boot-mybatis-plus-learning" />
         <module name="study-spring" />
       </profile>
     </annotationProcessing>
@@ -34,6 +35,7 @@
       <module name="spring-boot-demo4" options="-parameters" />
       <module name="spring-boot-demo5" options="-parameters" />
       <module name="spring-boot-learning" options="" />
+      <module name="spring-boot-mybatis-plus-learning" options="-parameters" />
     </option>
   </component>
 </project>

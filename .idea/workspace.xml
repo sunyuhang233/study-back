@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="JPA 完成小练习">
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/test/java/top/hang/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-data-learning/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +32,8 @@
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -119,11 +124,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="top.hang.mapper" />
       <recent name="top.hang.data.mapper" />
       <recent name="top.hang.data.repository" />
       <recent name="top.hang.boot.config" />
       <recent name="top.hang.boot.domain" />
-      <recent name="top.hang.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,82 +138,82 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentMapperTest.batchUpdate">
-    <configuration name="ClazzMapperTest.selectOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-data-learning" />
+  <component name="RunManager" selected="JUnit.UserMapperTest.queryUpdate">
+    <configuration name="UserMapperTest.querySelect1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis-plus-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.mapper.*" />
+          <option name="PATTERN" value="top.hang.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.ClazzMapperTest" />
-      <option name="METHOD_NAME" value="selectOneToMany" />
+      <option name="PACKAGE_NAME" value="top.hang.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="querySelect1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClazzMapperTest.selectOneToManyByClazzIdAndStudentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-data-learning" />
+    <configuration name="UserMapperTest.querySelect2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis-plus-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.mapper.*" />
+          <option name="PATTERN" value="top.hang.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.ClazzMapperTest" />
-      <option name="METHOD_NAME" value="selectOneToManyByClazzIdAndStudentId" />
+      <option name="PACKAGE_NAME" value="top.hang.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="querySelect2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseMapperTest.selectCourseAndStudentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-data-learning" />
+    <configuration name="UserMapperTest.queryUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis-plus-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.mapper.*" />
+          <option name="PATTERN" value="top.hang.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.CourseMapperTest" />
-      <option name="METHOD_NAME" value="selectCourseAndStudentId" />
+      <option name="PACKAGE_NAME" value="top.hang.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="queryUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-data-learning" />
+    <configuration name="UserMapperTest.selectByMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis-plus-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.mapper.*" />
+          <option name="PATTERN" value="top.hang.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.StudentMapperTest" />
-      <option name="METHOD_NAME" value="batchInsert" />
+      <option name="PACKAGE_NAME" value="top.hang.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectByMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperTest.batchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-data-learning" />
+    <configuration name="UserMapperTest.selectListByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis-plus-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.data.mapper.*" />
+          <option name="PATTERN" value="top.hang.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.data.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.data.mapper.StudentMapperTest" />
-      <option name="METHOD_NAME" value="batchUpdate" />
+      <option name="PACKAGE_NAME" value="top.hang.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectListByIds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -273,6 +278,13 @@
     <configuration name="SpringBootLearningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-learning" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.SpringBootLearningApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootMybatisPlusLearningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-mybatis-plus-learning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.SpringBootMybatisPlusLearningApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -367,11 +379,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ClazzMapperTest.selectOneToMany" />
-      <item itemvalue="JUnit.ClazzMapperTest.selectOneToManyByClazzIdAndStudentId" />
-      <item itemvalue="JUnit.CourseMapperTest.selectCourseAndStudentId" />
-      <item itemvalue="JUnit.StudentMapperTest.batchInsert" />
-      <item itemvalue="JUnit.StudentMapperTest.batchUpdate" />
+      <item itemvalue="JUnit.UserMapperTest.querySelect1" />
+      <item itemvalue="JUnit.UserMapperTest.querySelect2" />
+      <item itemvalue="JUnit.UserMapperTest.queryUpdate" />
+      <item itemvalue="JUnit.UserMapperTest.selectByMap" />
+      <item itemvalue="JUnit.UserMapperTest.selectListByIds" />
+      <item itemvalue="Spring Boot.SpringBootMybatisPlusLearningApplication" />
       <item itemvalue="Spring Boot.DataRun" />
       <item itemvalue="Spring Boot.SpringBootDataLearningApplication" />
       <item itemvalue="Spring Boot.RunApplication" />
@@ -385,11 +398,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentMapperTest.batchUpdate" />
-        <item itemvalue="JUnit.CourseMapperTest.selectCourseAndStudentId" />
-        <item itemvalue="JUnit.ClazzMapperTest.selectOneToManyByClazzIdAndStudentId" />
-        <item itemvalue="JUnit.ClazzMapperTest.selectOneToMany" />
-        <item itemvalue="JUnit.StudentMapperTest.batchInsert" />
+        <item itemvalue="JUnit.UserMapperTest.queryUpdate" />
+        <item itemvalue="JUnit.UserMapperTest.querySelect2" />
+        <item itemvalue="JUnit.UserMapperTest.querySelect1" />
+        <item itemvalue="JUnit.UserMapperTest.selectByMap" />
+        <item itemvalue="JUnit.UserMapperTest.selectListByIds" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +451,7 @@
       <workItem from="1679306089942" duration="1669000" />
       <workItem from="1679371846342" duration="1244000" />
       <workItem from="1679376030828" duration="13318000" />
-      <workItem from="1679487298374" duration="17000" />
+      <workItem from="1679487298374" duration="1811000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
