@@ -11,8 +11,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
  * @date 2023/3/27 13:57
  */
 @SpringBootApplication
-// 扫描servlet
-@ServletComponentScan
+@ServletComponentScan // 扫描servlet
 public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
