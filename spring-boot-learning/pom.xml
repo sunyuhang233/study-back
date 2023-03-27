@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-boot-config-learning</module>
+        <module>spring-boot-filter-interceptor</module>
     </modules>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-learning</name>

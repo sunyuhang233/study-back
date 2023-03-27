@@ -9,6 +9,7 @@
         <module name="spring-boot-demo-test" />
         <module name="spring-mvc-learning" />
         <module name="spring-boot-demo1" />
+        <module name="spring-boot-filter-interceptor" />
         <module name="spring-boot-demo2" />
         <module name="java-hight" />
         <module name="spring-boot-demo4" />
@@ -34,6 +35,7 @@
       <module name="spring-boot-demo3" options="" />
       <module name="spring-boot-demo4" options="-parameters" />
       <module name="spring-boot-demo5" options="-parameters" />
+      <module name="spring-boot-filter-interceptor" options="-parameters" />
       <module name="spring-boot-learning" options="" />
       <module name="spring-boot-mybatis-plus-learning" options="-parameters" />
     </option>

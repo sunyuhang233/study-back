@@ -9,17 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="JPA 完成小练习">
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/common/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/config/MybatisPlusConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/controller/SpringController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/entity/Spring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/mapper/SpringMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/test/java/top/hang/mapper/SpringMapperTest.java" afterDir="false" />
+    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="监听器 拦截器 Servlet">
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/controller/ListenerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/filter/CustomFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/filter/FilterRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/listener/MyListener1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/servlet/CustomServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/main/java/top/hang/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/test/java/top/hang/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-mybatis-plus-learning/src/test/java/top/hang/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +143,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMybatisPlusLearningApplication">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="SpringMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mybatis-plus-learning" />
       <extension name="coverage">
@@ -190,22 +192,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.selectUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-plus-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="selectUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserMapperTest.testCustomSQL2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mybatis-plus-learning" />
       <extension name="coverage">
@@ -225,6 +211,19 @@
     <configuration name="DataRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-data-learning" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.DataRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-filter-interceptor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.DemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -385,7 +384,6 @@
       <item itemvalue="JUnit.SpringMapperTest.selectAll" />
       <item itemvalue="JUnit.UserMapperTest.pageSelect" />
       <item itemvalue="JUnit.UserMapperTest.pageSelect1" />
-      <item itemvalue="JUnit.UserMapperTest.selectUser" />
       <item itemvalue="JUnit.UserMapperTest.testCustomSQL2" />
       <item itemvalue="Spring Boot.SpringBootMybatisPlusLearningApplication" />
       <item itemvalue="Spring Boot.DataRun" />
@@ -397,15 +395,16 @@
       <item itemvalue="Spring Boot.Main (1)" />
       <item itemvalue="Spring Boot.SpringBootDemo2Application" />
       <item itemvalue="Spring Boot.Main" />
+      <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DemoApplication" />
         <item itemvalue="JUnit.SpringMapperTest.selectAll" />
         <item itemvalue="JUnit.UserMapperTest.pageSelect1" />
         <item itemvalue="JUnit.UserMapperTest.pageSelect" />
         <item itemvalue="JUnit.UserMapperTest.testCustomSQL2" />
-        <item itemvalue="JUnit.UserMapperTest.selectUser" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +455,7 @@
       <workItem from="1679376030828" duration="13318000" />
       <workItem from="1679487298374" duration="4503000" />
       <workItem from="1679557128551" duration="2042000" />
-      <workItem from="1679893522950" duration="1254000" />
+      <workItem from="1679893522950" duration="6367000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
@@ -472,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678275514978</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="集成MybatisPlus">
+      <created>1679895101103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679895101103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +499,9 @@
     <MESSAGE value="完成java高级部分的异常" />
     <MESSAGE value="完成剩余Spring Mvc" />
     <MESSAGE value="JPA 完成小练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 完成小练习" />
+    <MESSAGE value="集成MybatisPlus" />
+    <MESSAGE value="监听器 拦截器 Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="监听器 拦截器 Servlet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
