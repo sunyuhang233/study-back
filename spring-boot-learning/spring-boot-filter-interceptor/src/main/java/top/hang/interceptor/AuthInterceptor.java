@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * @author Ahang
  * @version 1.0
- * @description TODO
+ * @description 自定义拦截器
  * @date 2023/3/27 15:58
  */
 @Component
@@ -20,7 +20,7 @@ public class AuthInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String authorization = request.getHeader("Authorization");
         if (authorization != null) {
-            if (authorization.equals("Ahang666")) {
+            if ("Ahang666".equals(authorization)) {
                 // 较验通过
                 return true;
             } else {

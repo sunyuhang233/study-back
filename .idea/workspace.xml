@@ -12,19 +12,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="监听器 拦截器 Servlet">
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/config/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/controller/InterceptorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/interceptor/CustomInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/static/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/templates/login.html" afterDir="false" />
+    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="过滤器">
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/command/AppStartupRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/command/BeanInitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/command/CommandLineStartupRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyListener1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyListener2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyListener3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyListener4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/controller/ListenerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/controller/ListenerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/config/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/interceptor/AuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +42,9 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,41 +85,41 @@
   <component name="ProjectViewState">
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back-main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "ed3aa56dfa8ba2604bd2497cf5deb2f1",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Ahang/Desktop/study-back-main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ed3aa56dfa8ba2604bd2497cf5deb2f1&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Ahang\Desktop\study-back\spring-boot-demo4\src\main\java\top\hang" />
@@ -222,8 +223,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="false" />
       <module name="spring-boot-filter-interceptor" />
+      <option name="PROGRAM_PARAMETERS" value="--name=sunyuahang --age=19" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.DemoApplication" />
       <extension name="coverage">
         <pattern>
@@ -463,7 +466,8 @@
       <workItem from="1679487298374" duration="4503000" />
       <workItem from="1679557128551" duration="2042000" />
       <workItem from="1679893522950" duration="7351000" />
-      <workItem from="1679902027801" duration="4039000" />
+      <workItem from="1679902027801" duration="5384000" />
+      <workItem from="1679911539380" duration="1833000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
@@ -493,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679900856749</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="过滤器">
+      <created>1679906565211</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679906565212</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +527,8 @@
     <MESSAGE value="JPA 完成小练习" />
     <MESSAGE value="集成MybatisPlus" />
     <MESSAGE value="监听器 拦截器 Servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="监听器 拦截器 Servlet" />
+    <MESSAGE value="过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="过滤器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
