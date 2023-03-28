@@ -12,20 +12,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="过滤器">
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/command/AppStartupRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/command/BeanInitListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/command/CommandLineStartupRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyListener1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyListener2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyListener3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/event/MyListener4.java" afterDir="false" />
+    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="事件监听">
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/entity/UserLoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/exception/CustomServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/intercepter/MyIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/web/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/common/MyCustoms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/controller/article.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/enums/MyEnums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6ae640ef-6ccb-4304-bcaf-6d1ec42d1c58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6ae640ef-6ccb-4304-bcaf-6d1ec42d1c58.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/config/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/config/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/java/top/hang/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-filter-interceptor/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/list/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/list/ForTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/list/TestArrayListCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/list/TestLinkedListCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/map/HashMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/map/LinkedHashMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/map/MapForTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/map/TreeMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/set/HashSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/set/LinkedHashSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/src/main/java/org/example/set/TreeSetSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/list/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/list/ForTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/list/TestArrayListCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/list/TestLinkedListCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/map/HashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/map/LinkedHashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/map/MapForTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/map/TreeMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/set/HashSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/set/LinkedHashSetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/set/TreeSetSample$IntegerComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-hight/target/classes/org/example/set/TreeSetSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +85,12 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -89,6 +135,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;6ae640ef-6ccb-4304-bcaf-6d1ec42d1c58&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -100,7 +147,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Ahang/Desktop/study-back-main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/Ahang/Desktop/study-back-main/auth-spring-learning/src/main/java/top/hang/common&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -111,7 +158,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ed3aa56dfa8ba2604bd2497cf5deb2f1&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;14e495efb29393d216b9e4882413856a&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -122,11 +169,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Ahang\Desktop\study-back-main\auth-spring-learning\src\main\java\top\hang\common" />
       <recent name="D:\Users\Ahang\Desktop\study-back\spring-boot-demo4\src\main\java\top\hang" />
       <recent name="D:\Users\Ahang\Desktop\study-back\spring-boot-demo3\src\main\java\top\hang\common" />
       <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-learning\src\main\webapp\img" />
       <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-study\web\WEB-INF" />
-      <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-study\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Ahang\Desktop\study-back-main\spring-boot-learning\spring-boot-filter-interceptor\src\main\resources\static\images" />
@@ -143,6 +190,9 @@
       <recent name="top.hang.boot.config" />
       <recent name="top.hang.boot.domain" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="top.hang.entity" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="excludedTypes">
@@ -151,7 +201,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="Spring Boot.Main (2)">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.hang.common.JwtUtil" />
+      <module name="auth-spring-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="article | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/controller/article.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="SpringMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-mybatis-plus-learning" />
       <extension name="coverage">
@@ -168,50 +234,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.pageSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-plus-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="pageSelect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.pageSelect1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-plus-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="pageSelect1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.testCustomSQL2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-plus-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.mapper" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testCustomSQL2" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="AuthSpringLearningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="auth-spring-learning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.AuthSpringLearningApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,6 +266,19 @@
     <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-demo2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-exception-learning" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -391,10 +429,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.JwtUtil" />
+      <item itemvalue="HTTP Request.article | #1" />
       <item itemvalue="JUnit.SpringMapperTest.selectAll" />
-      <item itemvalue="JUnit.UserMapperTest.pageSelect" />
-      <item itemvalue="JUnit.UserMapperTest.pageSelect1" />
-      <item itemvalue="JUnit.UserMapperTest.testCustomSQL2" />
+      <item itemvalue="Spring Boot.AuthSpringLearningApplication" />
       <item itemvalue="Spring Boot.SpringBootMybatisPlusLearningApplication" />
       <item itemvalue="Spring Boot.DataRun" />
       <item itemvalue="Spring Boot.SpringBootDataLearningApplication" />
@@ -405,16 +443,17 @@
       <item itemvalue="Spring Boot.Main (1)" />
       <item itemvalue="Spring Boot.SpringBootDemo2Application" />
       <item itemvalue="Spring Boot.Main" />
+      <item itemvalue="Spring Boot.Main (2)" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main (2)" />
+        <item itemvalue="HTTP Request.article | #1" />
+        <item itemvalue="Application.JwtUtil" />
         <item itemvalue="Spring Boot.DemoApplication" />
         <item itemvalue="JUnit.SpringMapperTest.selectAll" />
-        <item itemvalue="JUnit.UserMapperTest.pageSelect1" />
-        <item itemvalue="JUnit.UserMapperTest.pageSelect" />
-        <item itemvalue="JUnit.UserMapperTest.testCustomSQL2" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +506,10 @@
       <workItem from="1679557128551" duration="2042000" />
       <workItem from="1679893522950" duration="7351000" />
       <workItem from="1679902027801" duration="5384000" />
-      <workItem from="1679911539380" duration="1833000" />
+      <workItem from="1679911539380" duration="1952000" />
+      <workItem from="1679924010532" duration="4595000" />
+      <workItem from="1679929001957" duration="300000" />
+      <workItem from="1679978329435" duration="6030000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
@@ -504,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679906565212</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="事件监听">
+      <created>1679913486150</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679913486150</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +577,8 @@
     <MESSAGE value="集成MybatisPlus" />
     <MESSAGE value="监听器 拦截器 Servlet" />
     <MESSAGE value="过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="过滤器" />
+    <MESSAGE value="事件监听" />
+    <option name="LAST_COMMIT_MESSAGE" value="事件监听" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,6 +590,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.mybatis.spring.MyBatisSystemException" package="org.mybatis.spring" />
           <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="cn.hutool.jwt.JWTException" package="cn.hutool.jwt" />
+          <option name="timeStamp" value="5" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="ahang@localhost">
+<dataSource name="auth@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.45">
     <root id="1">
       <DefaultCasing>lower/lower</DefaultCasing>
@@ -1057,289 +1057,133 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Charset>utf8mb4</Charset>
     </collation>
     <schema id="288" parent="1" name="ahang">
+      <CollationName>utf8mb4_unicode_ci</CollationName>
+    </schema>
+    <schema id="289" parent="1" name="auth">
       <Current>1</Current>
-      <CollationName>utf8mb4_unicode_ci</CollationName>
-    </schema>
-    <schema id="289" parent="1" name="gmall">
-      <CollationName>utf8mb4_unicode_ci</CollationName>
-    </schema>
-    <schema id="290" parent="1" name="gmall_order">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="291" parent="1" name="gmall_product">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="292" parent="1" name="gmall_user">
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </schema>
-    <schema id="293" parent="1" name="gmall_ware">
+    <schema id="290" parent="1" name="gmall">
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="guigu-oa">
+    <schema id="291" parent="1" name="gmall_order">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="292" parent="1" name="gmall_product">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="295" parent="1" name="information_schema">
+    <schema id="293" parent="1" name="gmall_user">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
+    <schema id="294" parent="1" name="gmall_ware">
+      <CollationName>utf8mb4_unicode_ci</CollationName>
+    </schema>
+    <schema id="295" parent="1" name="guigu-oa">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="296" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="296" parent="1" name="javaweb">
+    <schema id="297" parent="1" name="javaweb">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="297" parent="1" name="mysql">
+    <schema id="298" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="298" parent="1" name="oa">
+    <schema id="299" parent="1" name="oa">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="299" parent="1" name="partner">
+    <schema id="300" parent="1" name="partner">
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </schema>
-    <schema id="300" parent="1" name="performance_schema">
+    <schema id="301" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="301" parent="1" name="reserve">
+    <schema id="302" parent="1" name="reserve">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="302" parent="1" name="school_soul">
+    <schema id="303" parent="1" name="school_soul">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="303" parent="1" name="spbootpet14922jywxxcxdzntsgglxtdsjysx">
+    <schema id="304" parent="1" name="spbootpet14922jywxxcxdzntsgglxtdsjysx">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="304" parent="1" name="spring_boot_data">
+    <schema id="305" parent="1" name="spring_boot_data">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="305" parent="1" name="sys">
+    <schema id="306" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="306" parent="1" name="work">
+    <schema id="307" parent="1" name="work">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="307" parent="1" name="mysql.infoschema">
+    <user id="308" parent="1" name="mysql.infoschema">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="308" parent="1" name="mysql.session">
+    <user id="309" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="309" parent="1" name="mysql.sys">
+    <user id="310" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
-      <Plugin>caching_sha2_password</Plugin>
-    </user>
-    <user id="310" parent="1" name="root">
       <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="311" parent="1" name="root">
+      <Plugin>caching_sha2_password</Plugin>
+    </user>
+    <user id="312" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="312" parent="288" name="t_article">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </table>
-    <table id="313" parent="288" name="t_clazz">
+    <table id="313" parent="289" name="user">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="314" parent="288" name="t_comment">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb3_general_ci</CollationName>
-    </table>
-    <table id="315" parent="288" name="t_course">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="316" parent="288" name="t_student">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="317" parent="288" name="t_teacher">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <column id="318" parent="312" name="id">
-      <AutoIncrement>4</AutoIncrement>
-      <Comment>文章id</Comment>
+    <column id="314" parent="313" name="id">
+      <Comment>主键</Comment>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="319" parent="312" name="title">
-      <Comment>文章标题</Comment>
-      <DasType>varchar(200)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="320" parent="312" name="content">
-      <Comment>文章内容</Comment>
-      <DasType>longtext|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="321" parent="312" name="img">
-      <Comment>图片</Comment>
-      <DasType>varchar(10000)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <index id="322" parent="312" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="323" parent="312" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="324" parent="313" name="clazz_id">
-      <AutoIncrement>3</AutoIncrement>
-      <Comment>班级id</Comment>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="325" parent="313" name="clazz_name">
-      <Comment>班级名称</Comment>
-      <DasType>varchar(50)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="326" parent="313" name="teacher_id">
-      <Comment>班级管理⽼师的id</Comment>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <index id="327" parent="313" name="PRIMARY">
-      <ColNames>clazz_id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="328" parent="313" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="329" parent="314" name="id">
-      <AutoIncrement>6</AutoIncrement>
-      <Comment>评论id</Comment>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="330" parent="314" name="content">
-      <Comment>评论内容</Comment>
-      <DasType>longtext|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="331" parent="314" name="author">
-      <Comment>评论作者</Comment>
-      <DasType>varchar(200)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="332" parent="314" name="a_id">
-      <Comment>关联的文章id</Comment>
-      <DasType>int|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="333" parent="314" name="time">
-      <Comment>时间</Comment>
-      <DasType>datetime|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <index id="334" parent="314" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="335" parent="314" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="336" parent="315" name="course_id">
-      <AutoIncrement>20003</AutoIncrement>
-      <Comment>课程id</Comment>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="337" parent="315" name="course_name">
-      <Comment>课程名称</Comment>
+    <column id="315" parent="313" name="username">
+      <Comment>用户名</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <index id="338" parent="315" name="PRIMARY">
-      <ColNames>course_id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="339" parent="315" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="340" parent="316" name="student_id">
-      <AutoIncrement>3010</AutoIncrement>
-      <Comment>学⽣id</Comment>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="341" parent="316" name="clazz_id">
-      <Comment>学⽣所属班级的id</Comment>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="342" parent="316" name="student_name">
-      <Comment>学⽣姓名</Comment>
-      <DasType>varchar(50)|0s</DasType>
+    <column id="316" parent="313" name="password">
+      <Comment>密码</Comment>
+      <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="343" parent="316" name="hometown">
-      <Comment>学⽣籍贯</Comment>
-      <DasType>varchar(100)|0s</DasType>
+    <column id="317" parent="313" name="city">
+      <Comment>城市</Comment>
+      <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="344" parent="316" name="birthday">
-      <Comment>出⽣⽇期</Comment>
-      <DasType>date|0s</DasType>
+    <column id="318" parent="313" name="phone">
+      <Comment>电话号码</Comment>
+      <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="345" parent="316" name="PRIMARY">
-      <ColNames>student_id</ColNames>
+    <column id="319" parent="313" name="email">
+      <Comment>邮箱</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="320" parent="313" name="avatar">
+      <Comment>头像</Comment>
+      <DasType>varchar(255)|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="321" parent="313" name="PRIMARY">
+      <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="346" parent="316" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="347" parent="317" name="teacher_id">
-      <AutoIncrement>3</AutoIncrement>
-      <Comment>教师id</Comment>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="348" parent="317" name="teacher_name">
-      <Comment>教师姓名</Comment>
-      <DasType>varchar(50)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="349" parent="317" name="clazz_id">
-      <Comment>教师管理的班级id</Comment>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <index id="350" parent="317" name="PRIMARY">
-      <ColNames>teacher_id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="351" parent="317" name="PRIMARY">
+    <key id="322" parent="313" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
