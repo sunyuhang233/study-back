@@ -1,5 +1,7 @@
 package top.hang.entity;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,7 +18,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Article {
+    @Min(value = 2,message = "id不能小于2")
     private Integer id;
+    @NotEmpty(message = "标题不能为空")
     private String title;
+    @NotEmpty(message = "作者名不能为空")
     private String author;
 }

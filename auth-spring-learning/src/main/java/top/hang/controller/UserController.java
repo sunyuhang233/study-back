@@ -3,6 +3,8 @@ package top.hang.controller;
 import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import top.hang.auths.CheckAuth;
+import top.hang.common.Common;
 import top.hang.common.Result;
 import top.hang.entity.User;
 import top.hang.entity.UserLoginVo;
@@ -28,22 +30,23 @@ public class UserController {
     @PostMapping("/login")
     public Result login(@RequestBody User user)  {
         UserLoginVo loginUser = userService.login(user.getUsername(), user.getPassword());
-        return Result.success("登录成功",loginUser);
+        return Result.success(Common.LOGIN_SUCCESS_MSG,loginUser);
     }
 
     @PostMapping("/register")
     public Result register(@RequestBody User user) {
         int id = userService.register(user);
-        return Result.success("注册成功",id);
+        return Result.success(Common.REGISTER_SUCCESS_MSG,id);
     }
 
     @GetMapping("/{id}")
+    @CheckAuth
     public Result getUserById(@PathVariable("id") int id) {
         Optional<User> user = userRepository.findById(id);
         if (user.isEmpty()) {
-            return Result.error("用户不存在");
+            return Result.error(Common.USER_NOT_EXIST_MSG);
         }
-        return Result.success("查询成功",user.get());
+        return Result.success(Common.SUCCESS_MSG,user.get());
     }
 
 

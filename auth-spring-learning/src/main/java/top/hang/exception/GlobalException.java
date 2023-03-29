@@ -14,12 +14,9 @@ import top.hang.common.Result;
  */
 @RestControllerAdvice
 public class GlobalException {
-    @ExceptionHandler(value = Exception.class)
-    public Result exceptionError(Exception e) {
-        return Result.error(500,"系统异常");
-    }
+
     @ExceptionHandler(value = CustomServiceException.class)
     public Result serviceError(CustomServiceException e) {
-        return Result.error(e.getCode(), "系统异常");
+        return Result.error(e.getMessage());
     }
 }

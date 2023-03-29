@@ -4,11 +4,14 @@ import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 import top.hang.common.Common;
 import top.hang.entity.UserLoginVo;
 import top.hang.exception.CustomServiceException;
+
+import java.util.Objects;
 
 /**
  * @author Ahang
@@ -16,27 +19,24 @@ import top.hang.exception.CustomServiceException;
  * @description TODO
  * @date 2023/3/27 22:58
  */
+//@Component
 public class MyIntercepter implements HandlerInterceptor {
     @Resource
     private RedisTemplate redisTemplate;
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        String token = request.getHeader("token");
-        // 如果没有token
+        String token = request.getHeader("Authorization");
         if (token == null) {
-          throw new CustomServiceException(Common.LOGIN_ERROR_CODE,"请先登录");
+            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.USER_NOT_LOGIN_MSG);
         }
         UserLoginVo userLoginVo = (UserLoginVo) redisTemplate.opsForValue().get("user");
-        String userLoginVoToken = userLoginVo.getToken();
-        // 判断token是否一致
-        if (userLoginVoToken.equals(token)) {
-            return true;
+        if (Objects.isNull(userLoginVo)) {
+            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.LOGIN_ERROR_MSG);
         }
-        // 判断token是否过期
-        if (!redisTemplate.hasKey(token)) {
-            throw new CustomServiceException(Common.LOGIN_ERROR_CODE,"登录过期，请重新登录");
+        if (!token.equals(userLoginVo.getToken())) {
+            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.UN_LOGIN_TOKEN);
         }
-        return false;
+        return true;
     }
 
     @Override

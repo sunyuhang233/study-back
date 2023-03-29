@@ -51,7 +51,7 @@
                 <configuration>
                     <!-- 如果没有该配置，devtools不会生效 -->
                     <!-- 指定该类为全局的唯一入口 -->
-                    <mainClass>top.hang.Main</mainClass>
+                    <mainClass>top.hang.LogApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

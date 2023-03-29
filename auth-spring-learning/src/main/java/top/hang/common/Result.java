@@ -21,12 +21,9 @@ public class Result {
     private Object data;
 
     public static Result success(String msg,Object data){
-        return Result.builder().code(200).msg(msg).data(data).build();
+        return Result.builder().code(Common.SUCCESS_CODE).msg(msg).data(data).build();
     }
     public static Result error(String msg){
-        return Result.builder().msg(msg).build();
-    }
-    public static Result error(Integer code,String msg){
-        return Result.builder().code(code).msg(msg).build();
+        return Result.builder().code(Common.ERROR_CODE).msg(msg).build();
     }
 }

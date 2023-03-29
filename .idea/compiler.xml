@@ -20,6 +20,7 @@
         <module name="spring-boot-demo4" />
         <module name="spring-boot-demo5" />
         <module name="spring-boot-data-learning" />
+        <module name="spring-boot-log" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +42,7 @@
       <module name="spring-boot-exception-learning" options="-parameters" />
       <module name="spring-boot-filter-interceptor" options="-parameters" />
       <module name="spring-boot-learning" options="" />
+      <module name="spring-boot-log" options="-parameters" />
       <module name="spring-boot-mybatis-plus-learning" options="-parameters" />
     </option>
   </component>

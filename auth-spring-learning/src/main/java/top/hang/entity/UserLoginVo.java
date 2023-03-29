@@ -20,6 +20,7 @@ import java.io.Serializable;
 @Builder
 public class UserLoginVo implements Serializable {
     private static final long serialVersionUID = 1L;
+    private Integer id;
     private String username;
 
     private String password;

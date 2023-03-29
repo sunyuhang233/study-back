@@ -7,14 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import top.hang.common.Common;
-import top.hang.common.JwtUtil;
 import top.hang.entity.User;
 import top.hang.entity.UserLoginVo;
 import top.hang.exception.CustomServiceException;
 import top.hang.repository.UserRepository;
 import top.hang.service.UserService;
+import top.hang.util.JwtUtil;
+import top.hang.util.MD5Util;
 
-import java.util.HashMap;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
@@ -31,19 +31,19 @@ public class UserServiceImpl implements UserService {
     @Resource
     private UserRepository userRepository;
     @Override
-    public UserLoginVo login(String username, String password)  {
-        User user = userRepository.findUserByUsernameAndPassword(username, password);
-        if(user == null){
-            throw new CustomServiceException(Common.ERROR_CODE,"用户不存在");
+    public UserLoginVo login(String username, String password) {
+        User user = userRepository.findUserByUsername(username);
+        if (user == null) {
+            throw new CustomServiceException(Common.ERROR_CODE, Common.USER_NOT_EXIST_MSG);
         }
-        if(!user.getPassword().equals(password)){
-            throw new CustomServiceException(Common.ERROR_CODE,"密码错误");
+        if (!user.getPassword().equals(MD5Util.inputPasToFromPass(password))) {
+            throw new CustomServiceException(Common.ERROR_CODE, Common.LOGIN_ERROR_MSG2);
         }
         UserLoginVo userLoginVo = new UserLoginVo();
-        BeanUtils.copyProperties(user,userLoginVo);
+        BeanUtils.copyProperties(user, userLoginVo);
         String token = JwtUtil.create(user.getId(), user.getUsername());
         userLoginVo.setToken(token);
-        redisTemplate.opsForValue().set("user",userLoginVo, Common.TIME_OUT, TimeUnit.MINUTES);
+        redisTemplate.opsForValue().set("user", userLoginVo, 10, TimeUnit.SECONDS);
         return userLoginVo;
     }
 
@@ -51,11 +51,12 @@ public class UserServiceImpl implements UserService {
     public int register(User user) {
         User user1 = userRepository.findUserByUsername(user.getUsername());
         if(user1 != null){
-            throw new CustomServiceException(Common.ERROR_CODE,"用户已存在");
+            throw new CustomServiceException(Common.ERROR_CODE, Common.USER_EXIST_MSG);
         }
+        user.setPassword(MD5Util.inputPasToFromPass(user.getPassword()));
         User user2 = userRepository.save(user);
         if(Objects.isNull(user2)){
-            throw new CustomServiceException(Common.ERROR_CODE,"注册失败");
+            throw new CustomServiceException(Common.ERROR_CODE, Common.REGISTER_ERROR_MSG);
         }
         return user2.getId();
     }

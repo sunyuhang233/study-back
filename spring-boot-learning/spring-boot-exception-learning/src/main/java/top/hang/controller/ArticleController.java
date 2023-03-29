@@ -1,10 +1,9 @@
 package top.hang.controller;
 
 import jakarta.annotation.Resource;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import jakarta.validation.Valid;
+import org.springframework.web.bind.annotation.*;
+import top.hang.auth.CheckAuth;
 import top.hang.common.Result;
 import top.hang.entity.Article;
 import top.hang.service.ArticleService;
@@ -23,6 +22,7 @@ public class ArticleController {
     @Resource
     private ArticleService articleService;
     @GetMapping("/article/{id}")
+    @CheckAuth(value="ahang666")
     public Result getArticle(@PathVariable Integer id) {
         if(id>3){
             articleService.systemError(id);
@@ -36,5 +36,10 @@ public class ArticleController {
         List<Article> articleList = List.of(new Article(1, "spring boot", "spring boot learning"), new Article(2,
                 "spring cloud", "spring cloud learning"), new Article(3, "spring", "spring learning"));
         return articleList.stream().filter(s -> s.getId().equals(id)).toList().get(0);
+    }
+
+    @PostMapping("/article")
+    public Result addArticle(@Valid @RequestBody Article article){ // @Valid注解用于校验实体类
+        return Result.success(article);
     }
 }

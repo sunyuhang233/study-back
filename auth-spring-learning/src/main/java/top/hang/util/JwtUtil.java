@@ -1,4 +1,4 @@
-package top.hang.common;
+package top.hang.util;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
