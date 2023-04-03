@@ -7,10 +7,9 @@ package top.hang.common;
  * @date 2023/3/27 22:28
  */
 public interface Common {
-    Integer TIME_OUT = 30 * 60 * 1000;
     Integer SUCCESS_CODE = 200;
     Integer ERROR_CODE = 400;
-    Integer LOGIN_ERROR_CODE = 403;
+    Integer UN_LOGIN_TOKEN_CODE = 403;
     String LOGIN_ERROR_MSG = "登录已过期，请重新登录";
     String UN_ROLE_MSG = "无权限";
     String UN_LOGIN_TOKEN = "token不存在";

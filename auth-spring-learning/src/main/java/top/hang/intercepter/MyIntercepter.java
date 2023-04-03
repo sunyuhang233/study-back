@@ -19,22 +19,26 @@ import java.util.Objects;
  * @description TODO
  * @date 2023/3/27 22:58
  */
-//@Component
+@Component
 public class MyIntercepter implements HandlerInterceptor {
     @Resource
     private RedisTemplate redisTemplate;
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        // 1.获取token
         String token = request.getHeader("Authorization");
+        // 2.判断token是否为空
         if (token == null) {
-            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.USER_NOT_LOGIN_MSG);
+            throw new CustomServiceException(Common.UN_LOGIN_TOKEN_CODE, Common.USER_NOT_LOGIN_MSG);
         }
+        // 3.从redis中获取用户信息
         UserLoginVo userLoginVo = (UserLoginVo) redisTemplate.opsForValue().get("user");
         if (Objects.isNull(userLoginVo)) {
-            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.LOGIN_ERROR_MSG);
+            throw new CustomServiceException(Common.UN_LOGIN_TOKEN_CODE, Common.LOGIN_ERROR_MSG);
         }
+        // 4.判断token是否一致
         if (!token.equals(userLoginVo.getToken())) {
-            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.UN_LOGIN_TOKEN);
+            throw new CustomServiceException(Common.UN_LOGIN_TOKEN_CODE, Common.UN_LOGIN_TOKEN);
         }
         return true;
     }

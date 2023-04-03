@@ -33,16 +33,20 @@ public class AuthAspect {
     @Around("@annotation(top.hang.auths.CheckAuth)")
     public Object checkAuth(ProceedingJoinPoint point) throws Throwable {
         HttpServletRequest request = getHttpServletRequest();
+        // 获取token
         String token = request.getHeader("Authorization");
+        // 判断token是否为空
         if (token == null) {
-            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.USER_NOT_LOGIN_MSG);
+            throw new CustomServiceException(Common.UN_LOGIN_TOKEN_CODE, Common.USER_NOT_LOGIN_MSG);
         }
+        // 从redis中获取用户信息
         UserLoginVo userLoginVo = (UserLoginVo) redisTemplate.opsForValue().get("user");
         if (Objects.isNull(userLoginVo)) {
-            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.LOGIN_ERROR_MSG);
+            throw new CustomServiceException(Common.UN_LOGIN_TOKEN_CODE, Common.LOGIN_ERROR_MSG);
         }
+        // 判断token是否正确
         if (!token.equals(userLoginVo.getToken())) {
-            throw new CustomServiceException(Common.LOGIN_ERROR_CODE, Common.UN_LOGIN_TOKEN);
+            throw new CustomServiceException(Common.UN_LOGIN_TOKEN_CODE, Common.UN_LOGIN_TOKEN);
         }
         // 执行方法
         return point.proceed();

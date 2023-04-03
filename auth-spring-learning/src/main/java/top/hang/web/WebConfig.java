@@ -13,7 +13,7 @@ import top.hang.intercepter.MyIntercepter;
  * @description TODO
  * @date 2023/3/27 22:50
  */
-//@Configuration
+@Configuration
 public class WebConfig implements WebMvcConfigurer {
     @Resource
     private MyIntercepter myIntercepter;

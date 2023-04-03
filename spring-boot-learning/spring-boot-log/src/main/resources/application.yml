@@ -1,12 +1,3 @@
-#logging:
-#  level:
-#    root: info
-#    top.hang.controller: debug
-#  file:
-#    path: /Users/Ahang/Desktop/logs
-#    name:  /Users/Ahang/Desktop/logs/boot.log
-#  pattern:
-#    console: '%red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger{10}) - %cyan(%msg%n)'
-#    file: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger : %msg%n'
-logging:
-  config: classpath:log4j2-dev.xml
+spring:
+  profiles:
+    active: prod

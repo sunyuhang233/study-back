@@ -1,7 +1,6 @@
 package top.hang.controller;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,15 +13,15 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2023/3/29 18:51
  */
 @RestController
+@Slf4j
 public class LogTestController {
-    private static final Logger logger = (Logger) LoggerFactory.getLogger(LogTestController.class);
 
     @GetMapping("/log")
     public void log() {
-        logger.trace("Trace 日志...");
-        logger.debug("Debug 日志...");
-        logger.info("Info 日志...");
-        logger.warn("Warn 日志...");
-        logger.error("Error 日志...");
+        log.info("info 日志");
+        log.debug("debug 日志");
+        log.error("error 日志");
+        log.warn("warn 日志");
+        log.trace("trace 日志");
     }
 }

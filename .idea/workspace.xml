@@ -12,38 +12,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="自定义异常">
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/auths/AuthAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/auths/CheckAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/util/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/test/java/top/hang/repository/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/auth/AuthAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/auth/CheckAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/java/top/hang/LogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/java/top/hang/controller/LogTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="日志框架">
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/log4j2-spring-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/log4j2-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_22_20_09_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_3_22_20_09__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/auths/AuthAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/auths/AuthAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/util/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/common/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/entity/UserLoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/entity/UserLoginVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/exception/GlobalException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/intercepter/MyIntercepter.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/intercepter/MyIntercepter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/web/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/web/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-config-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/common/MyCustoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/common/MyCustoms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/exception/GlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-exception-learning/src/main/java/top/hang/exception/GlobalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/test/java/top/hang/repository/UserRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/java/top/hang/LogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/java/top/hang/LogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/java/top/hang/controller/LogTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/java/top/hang/controller/LogTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/java/top/hang/web/AccessLogInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/java/top/hang/web/MyWebMvcConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/log4j2-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/log4j2-spring-prod.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log/src/main/resources/logback-spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,49 +99,49 @@
   <component name="ProjectViewState">
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;6ae640ef-6ccb-4304-bcaf-6d1ec42d1c58&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/Ahang/Desktop/study-back-main&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;51a13f31eabc5070f6d31252b8586672&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JPA.DatabaseSchemaImportDialog": "6ae640ef-6ccb-4304-bcaf-6d1ec42d1c58",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Users/Ahang/Desktop/study-back-main/spring-boot-learning/spring-boot-log/src/main/resources",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "spring.configuration.checksum": "07f43faa76252fa58d9d806180daac70",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Ahang\Desktop\study-back-main\spring-boot-learning\spring-boot-log\src\main\resources" />
       <recent name="D:\Users\Ahang\Desktop\study-back-main\auth-spring-learning\src\main\java\top\hang\auths" />
       <recent name="D:\Users\Ahang\Desktop\study-back-main\auth-spring-learning\src\main\java\top\hang\common" />
       <recent name="D:\Users\Ahang\Desktop\study-back\spring-boot-demo4\src\main\java\top\hang" />
       <recent name="D:\Users\Ahang\Desktop\study-back\spring-boot-demo3\src\main\java\top\hang\common" />
-      <recent name="D:\Users\Ahang\Desktop\project\study-back\spring-mvc-learning\src\main\webapp\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Ahang\Desktop\study-back-main\auth-spring-learning\src\main\java\top\hang\common" />
@@ -489,7 +483,11 @@
       <workItem from="1680070624362" duration="1472000" />
       <workItem from="1680081019008" duration="304000" />
       <workItem from="1680082519499" duration="477000" />
-      <workItem from="1680083285111" duration="2447000" />
+      <workItem from="1680083285111" duration="3562000" />
+      <workItem from="1680162029244" duration="3815000" />
+      <workItem from="1680184208503" duration="903000" />
+      <workItem from="1680220115391" duration="2900000" />
+      <workItem from="1680495643730" duration="9011000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
@@ -540,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679986825865</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="日志框架">
+      <created>1680087793492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680087793492</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +571,8 @@
     <MESSAGE value="过滤器" />
     <MESSAGE value="事件监听" />
     <MESSAGE value="自定义异常" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义异常" />
+    <MESSAGE value="日志框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志框架" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

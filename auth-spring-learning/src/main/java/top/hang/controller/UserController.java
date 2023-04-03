@@ -1,7 +1,6 @@
 package top.hang.controller;
 
 import jakarta.annotation.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import top.hang.auths.CheckAuth;
 import top.hang.common.Common;
@@ -40,14 +39,12 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    @CheckAuth
+//    @CheckAuth
     public Result getUserById(@PathVariable("id") int id) {
         Optional<User> user = userRepository.findById(id);
         if (user.isEmpty()) {
-            return Result.error(Common.USER_NOT_EXIST_MSG);
+            return Result.error(Common.ERROR_CODE, Common.USER_NOT_EXIST_MSG);
         }
         return Result.success(Common.SUCCESS_MSG,user.get());
     }
-
-
 }
