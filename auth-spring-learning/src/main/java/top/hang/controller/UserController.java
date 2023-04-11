@@ -2,7 +2,7 @@ package top.hang.controller;
 
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
-import top.hang.auths.CheckAuth;
+import top.hang.auths.MyLog;
 import top.hang.common.Common;
 import top.hang.common.Result;
 import top.hang.entity.User;
@@ -26,7 +26,9 @@ public class UserController {
 
     @Resource
     private UserRepository userRepository;
+
     @PostMapping("/login")
+    @MyLog(value = "用户登录")
     public Result login(@RequestBody User user)  {
         UserLoginVo loginUser = userService.login(user.getUsername(), user.getPassword());
         return Result.success(Common.LOGIN_SUCCESS_MSG,loginUser);

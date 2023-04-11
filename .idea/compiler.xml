@@ -11,6 +11,7 @@
         <module name="spring-boot-config-learning" />
         <module name="spring-boot-mybatis-plus-learning" />
         <module name="study-spring" />
+        <module name="spring-boot-task-learning" />
         <module name="spring-boot-demo-test" />
         <module name="spring-boot-demo1" />
         <module name="spring-boot-exception-learning" />
@@ -21,6 +22,8 @@
         <module name="spring-boot-demo5" />
         <module name="spring-boot-data-learning" />
         <module name="spring-boot-log" />
+        <module name="spring-boot-log-aop" />
+        <module name="spring-boot-file" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,10 +43,13 @@
       <module name="spring-boot-demo4" options="-parameters" />
       <module name="spring-boot-demo5" options="-parameters" />
       <module name="spring-boot-exception-learning" options="-parameters" />
+      <module name="spring-boot-file" options="-parameters" />
       <module name="spring-boot-filter-interceptor" options="-parameters" />
       <module name="spring-boot-learning" options="" />
       <module name="spring-boot-log" options="-parameters" />
+      <module name="spring-boot-log-aop" options="-parameters" />
       <module name="spring-boot-mybatis-plus-learning" options="-parameters" />
+      <module name="spring-boot-task-learning" options="-parameters" />
     </option>
   </component>
 </project>
