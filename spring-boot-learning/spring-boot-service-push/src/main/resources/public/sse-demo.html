@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sse-demo</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 500px;
+            border: 1px solid #000;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 500px;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    接收到的消息
+</div>
+
+</body>
+
+<script>
+    if (!!window.EventSource) {
+        let source = new EventSource("http://localhost:8080/sse/msg");
+        source.onopen = (e) => {
+            console.log("open");
+        }
+        source.onmessage = (e) => {
+            console.log(e)
+            console.log(e.origin) // e.origin 服务器端URL的域名部分 有protocol和hostname和port组成
+            console.log(e.data) // e.data 服务器端发送的数据
+            document.getElementById("box").innerHTML = e.data;
+            if (!e.data) {
+                // 关闭连接
+                source.close();
+            }
+        }
+        source.onerror = (e) => {
+            console.log("error", e);
+        }
+    } else {
+        alert("浏览器不支持");
+    }
+</script>
+</html>

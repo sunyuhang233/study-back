@@ -1,0 +1,15 @@
+logging:
+  level:
+    com:
+      example:
+        mapper:
+          UserMapper: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cache?serverTimezone=UTC&allowMultiQueries=true
+    username: root
+    password: sunyuhang233
+  cache:
+    redis:
+      use-key-prefix: true

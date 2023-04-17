@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+<div id="app">
+    <div>
+        <input type="number" placeholder="请输入id" v-model="id">
+        <button id="connect" @click="open()">连接</button>
+    </div>
+    <div>
+        <input type="text" id="text" v-model="content">
+        <button id="send" @click="sendMsg()">发送</button>
+    </div>
+    <div>
+        <p>{{msg}}</p>
+    </div>
+</div>
+</body>
+<script>
+    const {createApp} = Vue
+    createApp({
+        data() {
+            return {
+                msg: 'Hello Vue!',
+                id: 1,
+                content: '',
+                ws: null,
+            }
+        },
+        methods: {
+            open() {
+                console.log("open");
+                this.ws = new WebSocket("ws://localhost:8080/socket/" + this.id);
+                this.ws.onopen = () => {
+                    console.log("连接成功");
+                };
+                this.ws.onmessage = (event) => {
+                    console.log("收到消息：" + event.data);
+                    this.msg = this.msg.concat(event.data)
+                };
+
+            },
+            sendMsg() {
+                console.log("sendMsg");
+                this.ws.send(this.content);
+                this.content = '';
+            }
+        },
+
+    }).mount("#app")
+
+</script>
+</html>

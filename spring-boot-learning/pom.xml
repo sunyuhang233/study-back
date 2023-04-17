@@ -19,6 +19,8 @@
         <module>spring-boot-log</module>
         <module>spring-boot-task-learning</module>
         <module>spring-boot-file</module>
+        <module>spring-boot-cache-learning</module>
+        <module>spring-boot-service-push</module>
     </modules>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-learning</name>

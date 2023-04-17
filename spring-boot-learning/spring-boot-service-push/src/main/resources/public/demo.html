@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<!-- Import style -->
+<link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css"/>
+<!-- Import component library -->
+<script src="//unpkg.com/element-plus"></script>
+
+<div id="app">{{ message }}</div>
+<audio
+        id="audio"
+        ref="audioItem"
+        src="https://m701.music.126.net/20230417150609/21e313a1ad82412937c7aded84b0059b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/26678456392/fd32/2e7a/8b17/5ac33d2a7d48eafc5f8d1fdfc1978a3b.mp3"
+        preload="auto"></audio>
+
+<script>
+
+
+    const {createApp} = Vue
+
+    createApp({
+            data() {
+                return {
+                    message: 'Hello Vue!',
+                }
+            },
+            methods: {
+                voiceAction() {
+                    const broadcast = new SpeechSynthesisUtterance(); // 初始化
+                    broadcast.text = "美团外卖已自动为您接单，请注意查收";
+                    broadcast.lang = "zh"; // 音种
+                    broadcast.volume = 1; // 音量
+                    broadcast.rate = 1; // 音速
+                    broadcast.pitch = 1; // 音调
+                    speechSynthesis.speak(broadcast); // 添加到语音队列中播放
+                },
+                mounted() {
+                    if (!!window.EventSource) {
+                        let source = new EventSource("http://localhost:8080/sse/msg");
+                        source.onopen = (e) => {
+                            // 系统提示声音cdn
+                            console.log("open");
+                        }
+                        source.onmessage = (e) => {
+                            console.log(e)
+                            console.log(e.origin) // e.origin 服务器端URL的域名部分 有protocol和hostname和port组成
+                            console.log(e.data) // e.data 服务器端发送的数据
+                            this.message = e.data;
+                            ElementPlus.ElMessage({
+                                message: e.data,
+                                type: 'success'
+                            });
+                            this.voiceAction();
+                            if (!e.data) {
+                                // 关闭连接
+                                source.close();
+
+                            }
+                        }
+                        source.onerror = (e) => {
+                            console.log("error", e);
+                        }
+                    } else {
+                        alert("浏览器不支持");
+                    }
+                }
+            }
+        }
+    ).mount('#app')
+
+</script>
+
+</body>
+</html>
