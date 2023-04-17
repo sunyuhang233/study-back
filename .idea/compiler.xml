@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-mvc-learning" />
         <module name="spring-boot-filter-interceptor" />
+        <module name="spring-boot-redis" />
         <module name="spring-boot-config-learning" />
         <module name="spring-boot-mybatis-plus-learning" />
         <module name="study-spring" />
@@ -21,12 +22,14 @@
         <module name="spring-boot-demo4" />
         <module name="spring-boot-demo5" />
         <module name="spring-boot-data-learning" />
+        <module name="spring-boot-cache" />
         <module name="spring-boot-log" />
         <module name="spring-boot-log-aop" />
         <module name="spring-boot-file" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-cache" target="17" />
       <module name="spring-boot-demo3" target="17" />
       <module name="spring-mvc-study" target="17" />
     </bytecodeTargetLevel>
@@ -34,6 +37,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="auth-spring-learning" options="-parameters" />
+      <module name="spring-boot-cache" options="-parameters" />
       <module name="spring-boot-config-learning" options="-parameters" />
       <module name="spring-boot-data-learning" options="-parameters" />
       <module name="spring-boot-demo-test" options="-parameters" />
@@ -49,6 +53,7 @@
       <module name="spring-boot-log" options="-parameters" />
       <module name="spring-boot-log-aop" options="-parameters" />
       <module name="spring-boot-mybatis-plus-learning" options="-parameters" />
+      <module name="spring-boot-redis" options="-parameters" />
       <module name="spring-boot-task-learning" options="-parameters" />
     </option>
   </component>

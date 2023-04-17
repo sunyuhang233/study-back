@@ -12,49 +12,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="集成完成日志框架">
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/auths/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/auths/MyLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/entity/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/repository/LogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-file-learning/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-file-learning/src/main/java/top/hang/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/SpringBootAopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/aop/MyLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/aop/SysLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/config/LocalDateTimeSerializerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/config/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/entity/LogOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/entity/LogUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/service/ILogUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/service/LogUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/hang/utils/IpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/mapper/LogOperationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-log-aop/src/main/java/top/mapper/LogUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/TaskApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/config/TaskConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/controller/ErWeiMa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/jobs/ScheduledJobs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/task/AbstractTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/task/AsyncCallBackTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/task/AsyncExecutorTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/task/AsyncTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/java/top/hang/task/SyncTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/test/java/top/hang/task/AsyncCallBackTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/test/java/top/hang/task/AsyncExecutorTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/test/java/top/hang/task/AsyncTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-task-learning/src/test/java/top/hang/task/SyncTaskTest.java" afterDir="false" />
+    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="集成完成缓存">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-spring-learning/src/main/java/top/hang/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-file/src/main/java/top/hang/FileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-file/src/main/java/top/hang/FileApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +37,9 @@
         <option value="HTTP Request" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -143,8 +107,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;e582b6bb44432304523a4b56f7ee0e46&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;277ca1348979b945ac836610dc115a6d&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -172,11 +136,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="top.hang.mapper" />
+      <recent name="top.hang.service" />
       <recent name="top.hang.task" />
       <recent name="top.hang.repository" />
-      <recent name="top.hang.mapper" />
       <recent name="top.hang.data.mapper" />
-      <recent name="top.hang.data.repository" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="top.hang.entity" />
@@ -189,36 +153,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FileApplication">
-    <configuration name="ErWeiMa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.hang.controller.ErWeiMa" />
-      <module name="spring-boot-task-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AsyncCallBackTaskTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-task-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.hang.task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.hang.task" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.task.AsyncCallBackTaskTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserMapperTest.findAll">
     <configuration name="AsyncExecutorTaskTest.doTaskOneCallBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-task-learning" />
       <extension name="coverage">
@@ -251,6 +186,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CachedUserServiceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.hang.service" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.service.CachedUserServiceTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.hang.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.hang.mapper" />
+      <option name="MAIN_CLASS_NAME" value="top.hang.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthSpringLearningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth-spring-learning" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.AuthSpringLearningApplication" />
@@ -275,6 +242,13 @@
     <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-demo2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-boot-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -452,10 +426,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ErWeiMa" />
-      <item itemvalue="JUnit.AsyncCallBackTaskTest.test" />
+      <item itemvalue="JUnit.CachedUserServiceTest.test1" />
+      <item itemvalue="JUnit.UserMapperTest.findAll" />
       <item itemvalue="JUnit.AsyncExecutorTaskTest.doTaskOneCallBack" />
       <item itemvalue="JUnit.AsyncTaskTest.test" />
+      <item itemvalue="Spring Boot.Main (2)" />
       <item itemvalue="Spring Boot.FileApplication" />
       <item itemvalue="Spring Boot.SpringBootAopApplication" />
       <item itemvalue="Spring Boot.SpringBootLogAopApplication" />
@@ -475,11 +450,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.findAll" />
+        <item itemvalue="JUnit.CachedUserServiceTest.test1" />
         <item itemvalue="Spring Boot.TaskApplication" />
-        <item itemvalue="Application.ErWeiMa" />
-        <item itemvalue="JUnit.AsyncExecutorTaskTest.doTaskOneCallBack" />
-        <item itemvalue="JUnit.AsyncCallBackTaskTest.test" />
         <item itemvalue="JUnit.AsyncTaskTest.test" />
+        <item itemvalue="JUnit.AsyncExecutorTaskTest.doTaskOneCallBack" />
       </list>
     </recent_temporary>
   </component>
@@ -553,6 +528,10 @@
       <workItem from="1680619927744" duration="149000" />
       <workItem from="1680620125181" duration="198000" />
       <workItem from="1681098449980" duration="2439000" />
+      <workItem from="1681186923290" duration="2122000" />
+      <workItem from="1681282929308" duration="298000" />
+      <workItem from="1681642104023" duration="1450000" />
+      <workItem from="1681709510749" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
@@ -645,7 +624,8 @@
     <MESSAGE value="自定义异常" />
     <MESSAGE value="日志框架" />
     <MESSAGE value="集成完成日志框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成完成日志框架" />
+    <MESSAGE value="集成完成缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成完成缓存" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
