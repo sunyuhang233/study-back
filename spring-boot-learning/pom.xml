@@ -24,6 +24,7 @@
         <module>spring-boot-email</module>
         <module>spring-boot-actuator</module>
         <module>spring-boot-admin-service</module>
+        <module>spring-boot-document</module>
     </modules>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-learning</name>

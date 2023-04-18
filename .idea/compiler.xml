@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-document" />
         <module name="spring-mvc-learning" />
         <module name="spring-boot-filter-interceptor" />
-        <module name="spring-boot-redis" />
         <module name="spring-boot-config-learning" />
         <module name="spring-boot-mybatis-plus-learning" />
-        <module name="study-spring" />
-        <module name="spring-boot-task-learning" />
         <module name="spring-boot-email" />
         <module name="spring-boot-admin-service" />
         <module name="spring-boot-actuator" />
@@ -21,13 +19,16 @@
         <module name="spring-boot-exception-learning" />
         <module name="spring-boot-demo2" />
         <module name="auth-spring-learning" />
-        <module name="java-hight" />
         <module name="spring-boot-demo4" />
         <module name="spring-boot-demo5" />
         <module name="spring-boot-data-learning" />
         <module name="spring-boot-cache" />
-        <module name="spring-boot-log" />
         <module name="spring-boot-log-aop" />
+        <module name="spring-boot-redis" />
+        <module name="study-spring" />
+        <module name="spring-boot-task-learning" />
+        <module name="java-hight" />
+        <module name="spring-boot-log" />
         <module name="spring-boot-file" />
         <module name="spring-boot-service-push" />
       </profile>
@@ -52,6 +53,7 @@
       <module name="spring-boot-demo3" options="" />
       <module name="spring-boot-demo4" options="-parameters" />
       <module name="spring-boot-demo5" options="-parameters" />
+      <module name="spring-boot-document" options="-parameters" />
       <module name="spring-boot-email" options="-parameters" />
       <module name="spring-boot-exception-learning" options="-parameters" />
       <module name="spring-boot-file" options="-parameters" />
