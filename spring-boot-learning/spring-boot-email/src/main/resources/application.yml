@@ -1,0 +1,26 @@
+spring:
+  freemarker:
+    cache: false
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+    charset: UTF-8
+  mail:
+    default-encoding: UTF-8
+    host: smtp.qq.com
+    username: 2283582431@qq.com
+    password: jtdxyigsaymhdjfa
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+        auth: true
+        port: 465 # 465 或者 587
+        starttls:
+          enable: true
+          required: true
+        ssl:
+          enable: true
+          trust: smtp.qq.com
+    jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8

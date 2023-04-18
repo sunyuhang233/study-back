@@ -13,6 +13,7 @@
         <module name="spring-boot-mybatis-plus-learning" />
         <module name="study-spring" />
         <module name="spring-boot-task-learning" />
+        <module name="spring-boot-email" />
         <module name="spring-boot-demo-test" />
         <module name="spring-boot-demo1" />
         <module name="spring-boot-exception-learning" />
@@ -47,6 +48,7 @@
       <module name="spring-boot-demo3" options="" />
       <module name="spring-boot-demo4" options="-parameters" />
       <module name="spring-boot-demo5" options="-parameters" />
+      <module name="spring-boot-email" options="-parameters" />
       <module name="spring-boot-exception-learning" options="-parameters" />
       <module name="spring-boot-file" options="-parameters" />
       <module name="spring-boot-filter-interceptor" options="-parameters" />
