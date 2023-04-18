@@ -22,6 +22,8 @@
         <module>spring-boot-cache-learning</module>
         <module>spring-boot-service-push</module>
         <module>spring-boot-email</module>
+        <module>spring-boot-actuator</module>
+        <module>spring-boot-admin-service</module>
     </modules>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-learning</name>

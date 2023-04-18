@@ -1,4 +1,10 @@
 spring:
+  application:
+    name: spring-boot-email
+  boot:
+    admin:
+      client:
+        url: http://localhost:8989
   freemarker:
     cache: false
     suffix: .ftl
@@ -24,3 +30,9 @@ spring:
     jackson:
       date-format: yyyy-MM-dd HH:mm:ss
       time-zone: GMT+8
+server:
+  port: 9999
+management:
+  endpoint:
+    health:
+      show-details: always

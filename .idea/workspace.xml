@@ -12,19 +12,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="集成完成缓存">
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/src/main/java/top/hang/EmailApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/src/main/java/top/hang/email/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/src/main/java/top/hang/email/service/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/src/main/resources/templates/mail.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/src/test/java/top/hang/email/service/MailServiceTest.java" afterDir="false" />
+    <list default="true" id="c4608d91-6eb2-49d8-9028-593376a026a2" name="Changes" comment="集成完成邮件模块">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-actuator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-actuator/src/main/java/top/hang/ActuatorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-actuator/src/main/java/top/hang/config/ApplicationInfoConteributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-actuator/src/main/java/top/hang/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-actuator/src/main/java/top/hang/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-actuator/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-actuator/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-admin-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-admin-service/src/main/java/top/hang/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-admin-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-service-push/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-service-push/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-learning/spring-boot-email/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +52,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,43 +95,43 @@
   <component name="ProjectViewState">
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JPA.DatabaseSchemaImportDialog": "6ae640ef-6ccb-4304-bcaf-6d1ec42d1c58",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/学习文件/study-back-main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "settings.editor.splitter.proportion": "0.28004074",
-    "spring.configuration.checksum": "41924fd573f823852ab31b4c91a51d87",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;6ae640ef-6ccb-4304-bcaf-6d1ec42d1c58&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/学习文件/study-back-main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28004074&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b563ee09a7ec33d528d31f17d47c0703&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Ahang\Desktop\study-back-main\spring-boot-learning\spring-boot-log\src\main\resources" />
@@ -160,7 +168,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MailServiceTest.sendFtl">
+  <component name="RunManager" selected="Spring Boot.ActuatorApplication">
     <configuration name="MailServiceTest.sendComplexMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-email" />
       <extension name="coverage">
@@ -193,25 +201,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MailServiceTest.sendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-email" />
+    <configuration name="ActuatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-actuator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.ActuatorApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.hang.email.service.*" />
+          <option name="PATTERN" value="top.hang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="top.hang.email.service" />
-      <option name="MAIN_CLASS_NAME" value="top.hang.email.service.MailServiceTest" />
-      <option name="METHOD_NAME" value="sendMail" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-service-push" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.Application" />
+    <configuration name="AdminService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-admin-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.hang.AdminService" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.hang.*" />
@@ -432,7 +437,6 @@
     <list>
       <item itemvalue="JUnit.MailServiceTest.sendComplexMail" />
       <item itemvalue="JUnit.MailServiceTest.sendFtl" />
-      <item itemvalue="JUnit.MailServiceTest.sendMail" />
       <item itemvalue="Spring Boot.Main (2)" />
       <item itemvalue="Spring Boot.FileApplication" />
       <item itemvalue="Spring Boot.SpringBootAopApplication" />
@@ -448,17 +452,18 @@
       <item itemvalue="Spring Boot.Main (1)" />
       <item itemvalue="Spring Boot.SpringBootDemo2Application" />
       <item itemvalue="Spring Boot.Main" />
+      <item itemvalue="Spring Boot.AdminService" />
+      <item itemvalue="Spring Boot.ActuatorApplication" />
       <item itemvalue="Spring Boot.EmailApplication" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MailServiceTest.sendFtl" />
+        <item itemvalue="Spring Boot.ActuatorApplication" />
+        <item itemvalue="Spring Boot.AdminService" />
         <item itemvalue="Spring Boot.EmailApplication" />
+        <item itemvalue="JUnit.MailServiceTest.sendFtl" />
         <item itemvalue="JUnit.MailServiceTest.sendComplexMail" />
-        <item itemvalue="JUnit.MailServiceTest.sendMail" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +542,9 @@
       <workItem from="1681642104023" duration="1450000" />
       <workItem from="1681709510749" duration="10525000" />
       <workItem from="1681793863025" duration="5853000" />
-      <workItem from="1681800178696" duration="691000" />
+      <workItem from="1681800178696" duration="2015000" />
+      <workItem from="1681802240337" duration="714000" />
+      <workItem from="1681803034797" duration="3186000" />
     </task>
     <task id="LOCAL-00001" summary="完成java高级部分的异常">
       <created>1678199239920</created>
@@ -609,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681709852099</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="集成完成邮件模块">
+      <created>1681801028469</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681801028469</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +652,8 @@
     <MESSAGE value="日志框架" />
     <MESSAGE value="集成完成日志框架" />
     <MESSAGE value="集成完成缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成完成缓存" />
+    <MESSAGE value="集成完成邮件模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成完成邮件模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,21 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    endpoint:
+      health:
+        show-details: always
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: spring-boot-actuator
+  boot:
+    admin:
+      client:
+        url: http://localhost:8989

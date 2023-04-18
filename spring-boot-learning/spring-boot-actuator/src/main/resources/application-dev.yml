@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-boot-actuator
+  boot:
+    admin:
+      client:
+        url: http://localhost:8989
